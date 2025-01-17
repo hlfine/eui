@@ -17,9 +17,14 @@ npm login # Will prompt for credentials and 2FA token
 npm whoami # Should return your NPM username
 ```
 
-Ensure you are on the `main` branch, and then start the release process by running the following command:
+Ensure you are on the `main` branch and in the `packages/eui` directory:
 ```sh
-git checkout main && npm run release
+git checkout main && cd packages/eui
+```
+
+You can now start the release script by running the following command:
+```sh
+npm run release
 ```
 
 This command ensures that you have the latest `upstream/main` and dependencies, as well as running all tests and then building the `lib` and `dist` distributions formats. Next the recent changes are read from `changelogs/upcoming/` and you will be asked to choose what part of the version to bump.
@@ -100,7 +105,7 @@ If it's possible to avoid a backport by performing a full release or patch relea
       * You may need to re-run yarn in order to commit changes, if the commit modified dependencies
       * Remember to continue cherry picking with `git cherry-pick --continue` until all commits have been applied
 * Start the dev server and check that the intended changes have been properly applied, you don't want to repeat this process to patch the patch - `yarn start`
-* Once everything looks correct, it's time to [release](https://github.com/elastic/eui/blob/main/scripts/release.js):
+* Once everything looks correct, it's time to [release](https://github.com/elastic/eui/blob/main/packages/eui/scripts/release.js):
   * `npm run release-backport`
 * Update Kibana's `package.json` to point at the newly-released backport, e.g. `"@elastic/eui": "90.0.0-backport.0"`
 
@@ -115,8 +120,14 @@ The prerelease process is very similar to the backport process above.
   - Otherwise, simply check out the [latest EUI release](https://github.com/elastic/eui/releases), e.g. `git checkout v83.0.0`
   - The purpose of this step (instead of releasing from latest `main`) is to reduce as much noise as possible and ensure you're *only* testing the changes you want to test. This is particularly necessary for Kibana CI testing.
 - Apply the commit(s) with the desired changes, e.g. `git cherry-pick [commit-id]`
-- Once everything looks correct, it's time to [release](https://github.com/elastic/eui/blob/main/scripts/release.js):
+- Once everything looks correct, it's time to [release](https://github.com/elastic/eui/blob/main/packages/eui/scripts/release.js):
   * `npm run release-rc`
 - Go to https://www.npmjs.com/package/@elastic/eui?activeTab=versions and confirm that your pre-release has been pushed up with the correct version and tag, e.g. `83.1.1-rc.0`
 - Update Kibana or CodeSandbox (or whatever other environment you are using to test) to point at that version
 - QA away!
+
+# Unpublishing/deprecating releases
+
+If releases with issues or errors are created, they must be deprecated via `npm deprecate @elastic/eui@x.x.x 'Reason for deprecation'`.
+
+Unfortunately, the EUI package is no longer eligible to `npm unpublish` as npm now only allows that for packages with less than 300 downloads per week.

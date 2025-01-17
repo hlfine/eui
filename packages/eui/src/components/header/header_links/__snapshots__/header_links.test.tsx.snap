@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiHeaderLinks gutterSize l is rendered 1`] = `
+<nav
+  aria-label="App menu"
+  class="euiHeaderLinks emotion-euiHeaderLinks"
+>
+  <div
+    class="euiHeaderLinks__list emotion-euiHeaderLinks__list-l-EuiHeaderLinks"
+  />
+</nav>
+`;
+
+exports[`EuiHeaderLinks gutterSize m is rendered 1`] = `
+<nav
+  aria-label="App menu"
+  class="euiHeaderLinks emotion-euiHeaderLinks"
+>
+  <div
+    class="euiHeaderLinks__list emotion-euiHeaderLinks__list-m-EuiHeaderLinks"
+  />
+</nav>
+`;
+
+exports[`EuiHeaderLinks gutterSize s is rendered 1`] = `
+<nav
+  aria-label="App menu"
+  class="euiHeaderLinks emotion-euiHeaderLinks"
+>
+  <div
+    class="euiHeaderLinks__list emotion-euiHeaderLinks__list-s-EuiHeaderLinks"
+  />
+</nav>
+`;
+
+exports[`EuiHeaderLinks gutterSize xs is rendered 1`] = `
+<nav
+  aria-label="App menu"
+  class="euiHeaderLinks emotion-euiHeaderLinks"
+>
+  <div
+    class="euiHeaderLinks__list emotion-euiHeaderLinks__list-xs-EuiHeaderLinks"
+  />
+</nav>
+`;
+
+exports[`EuiHeaderLinks gutterSize xxs is rendered 1`] = `
+<nav
+  aria-label="App menu"
+  class="euiHeaderLinks emotion-euiHeaderLinks"
+>
+  <div
+    class="euiHeaderLinks__list emotion-euiHeaderLinks__list-xxs-EuiHeaderLinks"
+  />
+</nav>
+`;
+
+exports[`EuiHeaderLinks is rendered 1`] = `
+<nav
+  aria-label="aria-label"
+  class="euiHeaderLinks testClass1 testClass2 emotion-euiHeaderLinks-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiHeaderLinks__list emotion-euiHeaderLinks__list-s-EuiHeaderLinks"
+  />
+</nav>
+`;
+
+exports[`EuiHeaderLinks mobile menu/popover renders various popover props 1`] = `
+<nav
+  aria-label="App menu"
+  class="euiHeaderLinks emotion-euiHeaderLinks"
+>
+  <div
+    class="euiPopover emotion-euiPopover-inline-block"
+    data-test-subj="hello-world"
+  >
+    <button
+      aria-label="Open menu"
+      class="euiButtonEmpty euiHeaderSectionItemButton customButtonClass emotion-euiButtonDisplay-euiButtonEmpty-m-empty-text-euiHeaderSectionItemButton"
+      type="button"
+    >
+      <span
+        class="euiButtonEmpty__content emotion-euiButtonDisplayContent"
+      >
+        <span
+          class="eui-textTruncate euiButtonEmpty__text"
+        >
+          <span
+            class="euiHeaderSectionItemButton__content emotion-euiHeaderSectionItemButton__content"
+          >
+            <span
+              data-euiicon-type="bolt"
+            />
+          </span>
+        </span>
+      </span>
+    </button>
+  </div>
+</nav>
+`;

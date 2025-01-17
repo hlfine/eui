@@ -1,0 +1,441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiQuickSelectPanels customQuickSelectPanels should render custom panels 1`] = `
+<div
+  class="euiQuickSelectPopover emotion-euiQuickSelectPopover"
+  data-test-subj="superDatePickerQuickMenu"
+>
+  <fieldset
+    aria-describedby="generated-id"
+    class="emotion-euiQuickSelectPanel-render"
+  >
+    <legend
+      class="euiTitle emotion-euiQuickSelectPanel__title-euiTitle-xxxs"
+      id="generated-id"
+    >
+      Quick select
+    </legend>
+    <div
+      class="emotion-euiQuickSelectPanel__section"
+    >
+      <div
+        class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-center-row-render"
+      >
+        <div
+          class="euiFlexItem emotion-euiFlexItem-growZero"
+        >
+          <span
+            class="euiToolTipAnchor emotion-euiToolTipAnchor-inlineBlock"
+          >
+            <button
+              aria-label="Previous time window"
+              class="euiButtonIcon emotion-euiButtonIcon-xs-empty-primary"
+              type="button"
+            >
+              <span
+                aria-hidden="true"
+                class="euiButtonIcon__icon"
+                color="inherit"
+                data-euiicon-type="arrowLeft"
+              />
+            </button>
+          </span>
+        </div>
+        <div
+          class="euiFlexItem emotion-euiFlexItem-growZero"
+        >
+          <span
+            class="euiToolTipAnchor emotion-euiToolTipAnchor-inlineBlock"
+          >
+            <button
+              aria-label="Next time window"
+              class="euiButtonIcon emotion-euiButtonIcon-xs-empty-primary"
+              type="button"
+            >
+              <span
+                aria-hidden="true"
+                class="euiButtonIcon__icon"
+                color="inherit"
+                data-euiicon-type="arrowRight"
+              />
+            </button>
+          </span>
+        </div>
+      </div>
+      <div
+        class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-stretch-row"
+      >
+        <div
+          class="euiFlexItem emotion-euiFlexItem-grow-1"
+        >
+          <div
+            class="euiFormControlLayout emotion-euiFormControlLayout-compressed"
+          >
+            <div
+              class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+              style="--euiFormControlRightIconsCount: 1;"
+            >
+              <select
+                aria-describedby="generated-id generated-id"
+                aria-label="Time tense"
+                class="euiSelect emotion-euiSelect-compressed"
+              >
+                <option
+                  value="last"
+                >
+                  Last
+                </option>
+                <option
+                  value="next"
+                >
+                  Next
+                </option>
+              </select>
+              <div
+                class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-compressed-absolute-right"
+              >
+                <span
+                  class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="euiFormControlLayoutCustomIcon__icon"
+                    data-euiicon-type="arrowDown"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="euiFlexItem emotion-euiFlexItem-grow-1"
+        >
+          <div
+            class="euiFormControlLayout emotion-euiFormControlLayout-compressed"
+          >
+            <div
+              class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+            >
+              <input
+                aria-describedby="generated-id generated-id"
+                aria-label="Time value"
+                class="euiFieldNumber emotion-euiFieldNumber-compressed"
+                step="any"
+                type="number"
+                value="15"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="euiFlexItem emotion-euiFlexItem-grow-1"
+        >
+          <div
+            class="euiFormControlLayout emotion-euiFormControlLayout-compressed"
+          >
+            <div
+              class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+              style="--euiFormControlRightIconsCount: 1;"
+            >
+              <select
+                aria-describedby="generated-id generated-id"
+                aria-label="Time unit"
+                class="euiSelect emotion-euiSelect-compressed"
+              >
+                <option
+                  value="s"
+                >
+                  Seconds
+                </option>
+                <option
+                  value="m"
+                >
+                  Minutes
+                </option>
+                <option
+                  value="h"
+                >
+                  Hours
+                </option>
+                <option
+                  value="d"
+                >
+                  Days
+                </option>
+                <option
+                  value="w"
+                >
+                  Weeks
+                </option>
+                <option
+                  value="M"
+                >
+                  Months
+                </option>
+                <option
+                  value="y"
+                >
+                  Years
+                </option>
+              </select>
+              <div
+                class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-compressed-absolute-right"
+              >
+                <span
+                  class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="euiFormControlLayoutCustomIcon__icon"
+                    data-euiicon-type="arrowDown"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="euiFlexItem emotion-euiFlexItem-growZero"
+        >
+          <button
+            aria-describedby="generated-id generated-id"
+            class="euiButton emotion-euiButtonDisplay-s-base-primary"
+            data-test-subj="superDatePickerQuickSelectApplyButton"
+            type="button"
+          >
+            <span
+              class="emotion-euiButtonDisplayContent"
+            >
+              Apply
+            </span>
+          </button>
+        </div>
+      </div>
+      <p
+        class="emotion-euiScreenReaderOnly"
+        id="generated-id"
+      >
+        Currently set to last 15 Minutes.
+      </p>
+    </div>
+  </fieldset>
+  <fieldset
+    class="emotion-euiQuickSelectPanel"
+  >
+    <legend
+      class="euiTitle emotion-euiQuickSelectPanel__title-euiTitle-xxxs"
+      id="generated-id"
+    >
+      Commonly used
+    </legend>
+    <div
+      class="emotion-euiQuickSelectPanel__section"
+    >
+      <ul
+        aria-labelledby="generated-id"
+        class="euiFlexGrid emotion-euiFlexGrid-s-column-stretch-2"
+        style="grid-template-rows: repeat(1, 1fr);"
+      >
+        <li
+          class="euiFlexItem emotion-euiFlexItem-grow-1"
+        >
+          <button
+            class="euiLink emotion-euiLink-primary"
+            data-test-subj="superDatePickerCommonlyUsed_Today"
+            type="button"
+          >
+            Today
+          </button>
+        </li>
+      </ul>
+    </div>
+  </fieldset>
+  <fieldset
+    class="emotion-euiQuickSelectPanel"
+  >
+    <legend
+      class="euiTitle emotion-euiQuickSelectPanel__title-euiTitle-xxxs"
+      id="generated-id"
+    >
+      Recently used date ranges
+    </legend>
+    <div
+      class="emotion-euiQuickSelectPanel__section"
+    >
+      <ul
+        class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-stretch-column"
+      >
+        <li
+          class="euiFlexItem emotion-euiFlexItem-grow-1"
+        >
+          <button
+            class="euiLink emotion-euiLink-primary"
+            type="button"
+          >
+            Today
+          </button>
+        </li>
+      </ul>
+    </div>
+  </fieldset>
+  <div
+    class="emotion-euiQuickSelectPanel"
+  >
+    <div
+      class="euiFlexGroup emotion-euiFlexGroup-wrap-s-flexStart-center-row"
+    >
+      <div
+        class="euiFlexItem emotion-euiFlexItem-growZero"
+      >
+        <div
+          class="euiSwitch emotion-euiSwitch"
+        >
+          <button
+            aria-checked="false"
+            aria-describedby="generated-id"
+            aria-label="Toggle refresh"
+            class="euiSwitch__button emotion-euiSwitch__button-compressed"
+            data-test-subj="superDatePickerToggleRefreshButton"
+            id="generated-id"
+            role="switch"
+            type="button"
+          >
+            <span
+              class="euiSwitch__body emotion-euiSwitch__body-off"
+            />
+            <span
+              class="euiSwitch__thumb emotion-euiSwitch__thumb-off"
+            />
+          </button>
+          <span
+            class="euiSwitch__label emotion-euiSwitch__label-compressed"
+            id="generated-id"
+          >
+            <label
+              class="euiFormLabel emotion-euiFormLabel"
+            >
+              Refresh every
+            </label>
+          </span>
+        </div>
+      </div>
+      <div
+        class="euiFlexItem emotion-euiFlexItem-grow-1"
+        style="min-width: 60px;"
+      >
+        <div
+          class="euiFormControlLayout euiFormControlLayout-isDisabled emotion-euiFormControlLayout-compressed-fullWidth"
+        >
+          <div
+            class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+          >
+            <input
+              aria-describedby="generated-id"
+              aria-label="Refresh interval value"
+              class="euiFieldNumber emotion-euiFieldNumber-compressed-fullWidth"
+              data-test-subj="superDatePickerRefreshIntervalInput"
+              disabled=""
+              min="0"
+              step="any"
+              type="number"
+              value="0"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="euiFlexItem emotion-euiFlexItem-grow-2"
+        style="min-width: 100px;"
+      >
+        <div
+          class="euiFormControlLayout euiFormControlLayout-isDisabled emotion-euiFormControlLayout-compressed-fullWidth"
+        >
+          <div
+            class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+          >
+            <select
+              aria-describedby="generated-id"
+              aria-label="Refresh interval units"
+              class="euiSelect emotion-euiSelect-compressed-fullWidth"
+              data-test-subj="superDatePickerRefreshIntervalUnitsSelect"
+              disabled=""
+            >
+              <option
+                value="s"
+              >
+                Seconds
+              </option>
+              <option
+                value="m"
+              >
+                Minutes
+              </option>
+              <option
+                value="h"
+              >
+                Hours
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p
+      class="emotion-euiScreenReaderOnly"
+      id="generated-id"
+    >
+      Refresh is off, interval set to 0 Seconds.
+    </p>
+  </div>
+  <div
+    class="emotion-euiQuickSelectPanel"
+  >
+    <span
+      class="euiTitle emotion-euiQuickSelectPanel__title-euiTitle-xxxs"
+    >
+      My custom panel
+    </span>
+    <div
+      class="emotion-euiQuickSelectPanel__section"
+    >
+      <button
+        class="euiLink emotion-euiLink-primary"
+        data-test-subj="customComponentSelectPanel"
+        type="button"
+      >
+        Entire dataset timerange
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiQuickSelectPopover is rendered 1`] = `
+<div
+  class="euiPopover emotion-euiPopover-inline-block"
+>
+  <button
+    aria-label="Date quick select"
+    class="euiButtonEmpty emotion-euiButtonDisplay-euiButtonEmpty-xs-empty-primary-euiQuickSelectPopoverButton"
+    data-test-subj="superDatePickerToggleQuickMenuButton"
+    title="Date quick select"
+    type="button"
+  >
+    <span
+      class="euiButtonEmpty__content emotion-euiButtonDisplayContent-euiQuickSelectPopoverButton__content"
+    >
+      <span
+        class="eui-textTruncate euiButtonEmpty__text"
+      >
+        <span
+          data-euiicon-type="calendar"
+        />
+      </span>
+      <span
+        color="inherit"
+        data-euiicon-type="arrowDown"
+      />
+    </span>
+  </button>
+</div>
+`;

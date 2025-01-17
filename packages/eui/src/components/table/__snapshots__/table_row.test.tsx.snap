@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`isSelected renders true when specified 1`] = `
+<table>
+  <tbody>
+    <tr
+      class="euiTableRow euiTableRow-isSelected emotion-euiTableRow-desktop-selected"
+    >
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`renders EuiTableRow 1`] = `
+<table>
+  <tbody>
+    <tr
+      aria-label="aria-label"
+      class="euiTableRow testClass1 testClass2 emotion-euiTableRow-desktop-euiTestCss"
+      data-test-subj="test subject string"
+    >
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          >
+            hi
+          </span>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

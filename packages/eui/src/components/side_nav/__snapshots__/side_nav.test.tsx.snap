@@ -1,0 +1,629 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiSideNav is rendered 1`] = `
+<nav
+  aria-label="aria-label"
+  class="euiSideNav testClass1 testClass2 emotion-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiSideNav__content"
+    id="euiSideNav_generated-id_content"
+  />
+</nav>
+`;
+
+exports[`EuiSideNav props heading accepts more headingProps 1`] = `
+<nav
+  aria-labelledby="testID"
+  class="euiSideNav"
+>
+  <h3
+    aria-label="aria-label"
+    class="euiTitle euiSideNav__heading testClass1 testClass2 emotion-EuiSideNavHeading-euiTitle-xs-euiTestCss"
+    data-test-subj="test subject string"
+    id="testID"
+  >
+    Side Nav Heading
+  </h3>
+  <div
+    class="euiSideNav__content"
+    id="euiSideNav_generated-id_content"
+  />
+</nav>
+`;
+
+exports[`EuiSideNav props heading is hidden with screenReaderOnly 1`] = `
+<nav
+  aria-labelledby="euiSideNav_generated-id_heading"
+  class="euiSideNav"
+>
+  <h2
+    class="euiSideNav__heading emotion-euiScreenReaderOnly"
+    id="euiSideNav_generated-id_heading"
+  >
+    Side Nav Heading
+  </h2>
+  <div
+    class="euiSideNav__content"
+    id="euiSideNav_generated-id_content"
+  />
+</nav>
+`;
+
+exports[`EuiSideNav props heading is rendered 1`] = `
+<nav
+  aria-labelledby="euiSideNav_generated-id_heading"
+  class="euiSideNav"
+>
+  <h2
+    class="euiTitle euiSideNav__heading emotion-EuiSideNavHeading-euiTitle-xs"
+    id="euiSideNav_generated-id_heading"
+  >
+    Side Nav Heading
+  </h2>
+  <div
+    class="euiSideNav__content"
+    id="euiSideNav_generated-id_content"
+  />
+</nav>
+`;
+
+exports[`EuiSideNav props isOpenOnMobile defaults to false 1`] = `
+<nav
+  aria-labelledby="euiSideNav_generated-id_heading"
+  class="euiSideNav"
+>
+  <h2
+    class="euiTitle euiSideNav__heading emotion-EuiSideNavHeading-euiTitle-xs-mobile"
+    id="euiSideNav_generated-id_heading"
+  >
+    <button
+      aria-controls="euiSideNav_generated-id_content"
+      aria-label="Toggle navigation"
+      class="euiButtonEmpty euiSideNav__mobileToggle emotion-euiButtonDisplay-euiButtonEmpty-m-empty-primary-euiSideNav__mobileToggle"
+      type="button"
+    >
+      <span
+        class="euiButtonEmpty__content euiSideNav__mobileToggleContent emotion-euiButtonDisplayContent-euiSideNav__mobileToggleContent"
+      >
+        <span
+          class="eui-textTruncate euiButtonEmpty__text"
+        />
+        <span
+          color="inherit"
+          data-euiicon-type="apps"
+        />
+      </span>
+    </button>
+  </h2>
+  <div
+    class="euiSideNav__content emotion-euiSideNav__mobileContent-hidden"
+    id="euiSideNav_generated-id_content"
+  />
+</nav>
+`;
+
+exports[`EuiSideNav props isOpenOnMobile is rendered when specified as true 1`] = `
+<nav
+  aria-labelledby="euiSideNav_generated-id_heading"
+  class="euiSideNav euiSideNav-isOpenMobile"
+>
+  <h2
+    class="euiTitle euiSideNav__heading emotion-EuiSideNavHeading-euiTitle-xs-mobile"
+    id="euiSideNav_generated-id_heading"
+  >
+    <button
+      aria-controls="euiSideNav_generated-id_content"
+      aria-expanded="true"
+      aria-label="Toggle navigation"
+      class="euiButtonEmpty euiSideNav__mobileToggle emotion-euiButtonDisplay-euiButtonEmpty-m-empty-primary-euiSideNav__mobileToggle"
+      type="button"
+    >
+      <span
+        class="euiButtonEmpty__content euiSideNav__mobileToggleContent emotion-euiButtonDisplayContent-euiSideNav__mobileToggleContent"
+      >
+        <span
+          class="eui-textTruncate euiButtonEmpty__text"
+        />
+        <span
+          color="inherit"
+          data-euiicon-type="apps"
+        />
+      </span>
+    </button>
+  </h2>
+  <div
+    class="euiSideNav__content emotion-euiSideNav__mobileContent-open"
+    id="euiSideNav_generated-id_content"
+  />
+</nav>
+`;
+
+exports[`EuiSideNav props items is rendered 1`] = `
+<nav
+  class="euiSideNav"
+>
+  <div
+    class="euiSideNav__content"
+    id="euiSideNav_generated-id_content"
+  >
+    <div
+      class="euiSideNavItem euiSideNavItem--root euiSideNavItem-hasChildItems emotion-euiSideNavItem-root"
+    >
+      <div
+        class="euiSideNavItemButton emotion-euiSideNavItemButton-root"
+      >
+        <span
+          class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+        >
+          <span
+            class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+            title="A"
+          >
+            A
+          </span>
+        </span>
+      </div>
+      <div
+        class="euiSideNavItem__items emotion-euiSideNavItem__items"
+      >
+        <div
+          class="euiSideNavItem euiSideNavItem--trunk class emotion-euiSideNavItem-trunk"
+        >
+          <div
+            aria-label="aria"
+            class="euiSideNavItemButton emotion-euiSideNavItemButton-trunk"
+            data-test-sub="dts"
+          >
+            <span
+              class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+            >
+              <span
+                class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                title="B"
+              >
+                B
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          class="euiSideNavItem euiSideNavItem--trunk euiSideNavItem--emphasized emotion-euiSideNavItem-trunk-emphasized"
+        >
+          <button
+            class="euiSideNavItemButton emotion-euiSideNavItemButton-emphasized-trunk"
+            type="button"
+          >
+            <span
+              class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+            >
+              <span
+                class="euiSideNavItemButton__label emotion-euiSideNavItemButton__label"
+              >
+                C
+              </span>
+              <span
+                data-euiicon-type="arrowRight"
+              />
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`EuiSideNav props items renders items having { forceOpen: true } in open state, and automatically opens parent items 1`] = `
+<nav
+  class="euiSideNav"
+>
+  <div
+    class="euiSideNav__content"
+    id="euiSideNav_generated-id_content"
+  >
+    <div
+      class="euiSideNavItem euiSideNavItem--root euiSideNavItem-hasChildItems emotion-euiSideNavItem-root"
+    >
+      <div
+        class="euiSideNavItemButton emotion-euiSideNavItemButton-root"
+      >
+        <span
+          class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+        >
+          <span
+            class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+            title="A"
+          >
+            A
+          </span>
+        </span>
+      </div>
+      <div
+        class="euiSideNavItem__items emotion-euiSideNavItem__items"
+      >
+        <div
+          class="euiSideNavItem euiSideNavItem--trunk emotion-euiSideNavItem-trunk"
+        >
+          <div
+            class="euiSideNavItemButton emotion-euiSideNavItemButton-trunk"
+          >
+            <span
+              class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+            >
+              <span
+                class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                title="B"
+              >
+                B
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          class="euiSideNavItem euiSideNavItem--trunk euiSideNavItem-hasChildItems emotion-euiSideNavItem-trunk"
+        >
+          <button
+            class="euiSideNavItemButton euiSideNavItemButton-isOpen emotion-euiSideNavItemButton-trunk"
+            type="button"
+          >
+            <span
+              class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+            >
+              <span
+                class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                title="C"
+              >
+                C
+              </span>
+              <span
+                data-euiicon-type="arrowDown"
+              />
+            </span>
+          </button>
+          <div
+            class="euiSideNavItem__items emotion-euiSideNavItem__items-trunk"
+          >
+            <div
+              class="euiSideNavItem euiSideNavItem--branch euiSideNavItem-hasChildItems emotion-euiSideNavItem-branch"
+            >
+              <button
+                class="euiSideNavItemButton euiSideNavItemButton-isOpen emotion-euiSideNavItemButton-branch"
+                type="button"
+              >
+                <span
+                  class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+                >
+                  <span
+                    class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                    title="D"
+                  >
+                    D
+                  </span>
+                  <span
+                    data-euiicon-type="arrowDown"
+                  />
+                </span>
+              </button>
+              <div
+                class="euiSideNavItem__items emotion-euiSideNavItem__items-branch"
+              >
+                <div
+                  class="euiSideNavItem euiSideNavItem--branch emotion-euiSideNavItem-branch"
+                >
+                  <div
+                    class="euiSideNavItemButton emotion-euiSideNavItemButton-branch"
+                  >
+                    <span
+                      class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+                    >
+                      <span
+                        class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                        title="E"
+                      >
+                        E
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`EuiSideNav props items renders items using a specified callback 1`] = `
+<nav
+  class="euiSideNav"
+>
+  <div
+    class="euiSideNav__content"
+    id="euiSideNav_generated-id_content"
+  >
+    <div
+      class="euiSideNavItem euiSideNavItem--root euiSideNavItem-hasChildItems emotion-euiSideNavItem-root"
+    >
+      <a
+        class="euiSideNavItemButton emotion-euiSideNavItemButton-root"
+        data-test-id="my-custom-element"
+        href="http://www.elastic.co"
+      >
+        <span
+          class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+        >
+          <span
+            class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+            title="A"
+          >
+            A
+          </span>
+        </span>
+      </a>
+      <div
+        class="euiSideNavItem__items emotion-euiSideNavItem__items"
+      >
+        <div
+          class="euiSideNavItem euiSideNavItem--trunk emotion-euiSideNavItem-trunk"
+        >
+          <a
+            class="euiSideNavItemButton emotion-euiSideNavItemButton-trunk"
+            data-test-id="my-custom-element"
+          >
+            <span
+              class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+            >
+              <span
+                class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                title="B"
+              >
+                B
+              </span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`EuiSideNav props items renders items which are links 1`] = `
+<nav
+  class="euiSideNav"
+>
+  <div
+    class="euiSideNav__content"
+    id="euiSideNav_generated-id_content"
+  >
+    <div
+      class="euiSideNavItem euiSideNavItem--root euiSideNavItem-hasChildItems emotion-euiSideNavItem-root"
+    >
+      <a
+        class="euiSideNavItemButton emotion-euiSideNavItemButton-root"
+        href="http://www.elastic.co"
+        rel="noreferrer"
+      >
+        <span
+          class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+        >
+          <span
+            class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+            title="A"
+          >
+            A
+          </span>
+        </span>
+      </a>
+      <div
+        class="euiSideNavItem__items emotion-euiSideNavItem__items"
+      >
+        <div
+          class="euiSideNavItem euiSideNavItem--trunk emotion-euiSideNavItem-trunk"
+        >
+          <div
+            class="euiSideNavItemButton emotion-euiSideNavItemButton-trunk"
+          >
+            <span
+              class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+            >
+              <span
+                class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                title="B"
+              >
+                B
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          class="euiSideNavItem euiSideNavItem--trunk emotion-euiSideNavItem-trunk"
+        >
+          <button
+            class="euiSideNavItemButton emotion-euiSideNavItemButton-trunk"
+            type="button"
+          >
+            <span
+              class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+            >
+              <span
+                class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                title="C"
+              >
+                C
+              </span>
+              <span
+                data-euiicon-type="arrowRight"
+              />
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`EuiSideNav props items renders selected item and automatically opens parent items 1`] = `
+<nav
+  class="euiSideNav"
+>
+  <div
+    class="euiSideNav__content"
+    id="euiSideNav_generated-id_content"
+  >
+    <div
+      class="euiSideNavItem euiSideNavItem--root euiSideNavItem-hasChildItems emotion-euiSideNavItem-root"
+    >
+      <div
+        class="euiSideNavItemButton emotion-euiSideNavItemButton-root"
+      >
+        <span
+          class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+        >
+          <span
+            class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+            title="A"
+          >
+            A
+          </span>
+        </span>
+      </div>
+      <div
+        class="euiSideNavItem__items emotion-euiSideNavItem__items"
+      >
+        <div
+          class="euiSideNavItem euiSideNavItem--trunk emotion-euiSideNavItem-trunk"
+        >
+          <div
+            class="euiSideNavItemButton emotion-euiSideNavItemButton-trunk"
+          >
+            <span
+              class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+            >
+              <span
+                class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                title="B"
+              >
+                B
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          class="euiSideNavItem euiSideNavItem--trunk euiSideNavItem-hasChildItems emotion-euiSideNavItem-trunk"
+        >
+          <button
+            class="euiSideNavItemButton euiSideNavItemButton-isOpen emotion-euiSideNavItemButton-trunk"
+            type="button"
+          >
+            <span
+              class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+            >
+              <span
+                class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                title="C"
+              >
+                C
+              </span>
+              <span
+                data-euiicon-type="arrowDown"
+              />
+            </span>
+          </button>
+          <div
+            class="euiSideNavItem__items emotion-euiSideNavItem__items-trunk"
+          >
+            <div
+              class="euiSideNavItem euiSideNavItem--branch emotion-euiSideNavItem-branch"
+            >
+              <div
+                class="euiSideNavItemButton euiSideNavItemButton-isSelected emotion-euiSideNavItemButton-selected-branch"
+              >
+                <span
+                  class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+                >
+                  <span
+                    class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                    title="D"
+                  >
+                    D
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="euiSideNavItem euiSideNavItem--branch emotion-euiSideNavItem-branch"
+            >
+              <div
+                class="euiSideNavItemButton emotion-euiSideNavItemButton-branch"
+              >
+                <span
+                  class="euiSideNavItemButton__content emotion-euiSideNavItemButton__content"
+                >
+                  <span
+                    class="euiSideNavItemButton__label eui-textTruncate emotion-euiSideNavItemButton__label"
+                    title="E"
+                  >
+                    E
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`EuiSideNav props mobileBreakpoints can be adjusted is rendered 1`] = `
+<nav
+  aria-labelledby="euiSideNav_generated-id_heading"
+  class="euiSideNav"
+>
+  <h2
+    class="euiTitle euiSideNav__heading emotion-EuiSideNavHeading-euiTitle-xs-mobile"
+    id="euiSideNav_generated-id_heading"
+  >
+    <button
+      aria-controls="euiSideNav_generated-id_content"
+      aria-label="Toggle navigation"
+      class="euiButtonEmpty euiSideNav__mobileToggle emotion-euiButtonDisplay-euiButtonEmpty-m-empty-primary-euiSideNav__mobileToggle"
+      type="button"
+    >
+      <span
+        class="euiButtonEmpty__content euiSideNav__mobileToggleContent emotion-euiButtonDisplayContent-euiSideNav__mobileToggleContent"
+      >
+        <span
+          class="eui-textTruncate euiButtonEmpty__text"
+        />
+        <span
+          color="inherit"
+          data-euiicon-type="apps"
+        />
+      </span>
+    </button>
+  </h2>
+  <div
+    class="euiSideNav__content emotion-euiSideNav__mobileContent-hidden"
+    id="euiSideNav_generated-id_content"
+  />
+</nav>
+`;
+
+exports[`EuiSideNav props mobileBreakpoints can be adjusted null is rendered 1`] = `
+<nav
+  class="euiSideNav"
+>
+  <div
+    class="euiSideNav__content"
+    id="euiSideNav_generated-id_content"
+  />
+</nav>
+`;

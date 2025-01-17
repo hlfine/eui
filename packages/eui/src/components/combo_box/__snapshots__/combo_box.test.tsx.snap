@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiComboBox renders 1`] = `
+<div
+  class="euiComboBox testClass1 testClass2 emotion-euiComboBox-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiPopover euiInputPopover emotion-euiPopover-block-EuiInputPopover"
+  >
+    <div
+      class="euiFormControlLayout emotion-euiFormControlLayout-euiComboBox__formControlLayout-multiSelect"
+    >
+      <div
+        class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+        style="--euiFormControlRightIconsCount: 1;"
+      >
+        <div
+          class="euiComboBox__inputWrap emotion-euiComboBoxInputWrapper-multiSelect"
+          data-test-subj="comboBoxInput"
+          tabindex="-1"
+        >
+          <input
+            aria-autocomplete="list"
+            aria-controls=""
+            aria-expanded="false"
+            aria-invalid="false"
+            aria-label="aria-label"
+            autocomplete="off"
+            class="euiComboBox__input emotion-euiComboBoxInput"
+            data-test-subj="comboBoxSearchInput"
+            id="generated-id__eui-combobox-id"
+            role="combobox"
+            style="inline-size: 2px;"
+            value=""
+          />
+        </div>
+        <div
+          class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+        >
+          <button
+            aria-label="Open list of options"
+            class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon-clickable"
+            data-test-subj="comboBoxToggleListButton"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+              class="euiFormControlLayoutCustomIcon__icon"
+              data-euiicon-type="arrowDown"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiComboBox renders the options list dropdown 1`] = `
+<body>
+  <div>
+    <div
+      class="euiComboBox euiComboBox-isOpen emotion-euiComboBox"
+      data-test-subj="alsoGetsAppliedToOptionsList"
+    >
+      <div
+        class="euiPopover euiPopover-isOpen euiInputPopover emotion-euiPopover-block-EuiInputPopover"
+      >
+        <div
+          class="euiFormControlLayout emotion-euiFormControlLayout-euiComboBox__formControlLayout-multiSelect"
+        >
+          <div
+            class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+            style="--euiFormControlRightIconsCount: 1;"
+          >
+            <div
+              class="euiComboBox__inputWrap emotion-euiComboBoxInputWrapper-multiSelect-open"
+              data-test-subj="comboBoxInput"
+              tabindex="-1"
+            >
+              <input
+                aria-autocomplete="list"
+                aria-controls="generated-id_listbox"
+                aria-expanded="true"
+                aria-invalid="false"
+                autocomplete="off"
+                class="euiComboBox__input emotion-euiComboBoxInput"
+                data-test-subj="comboBoxSearchInput"
+                id="generated-id__eui-combobox-id"
+                role="combobox"
+                style="inline-size: 2px;"
+                value=""
+              />
+              <span
+                aria-live="polite"
+                class="emotion-euiScreenReaderOnly"
+                id="generated-id_removeOptionMessage"
+              >
+                Combo box. Selected. Combo box input.  Type some text or, to display a list of choices, press Down Arrow. To exit the list of choices, press Escape.
+              </span>
+            </div>
+            <div
+              class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+            >
+              <button
+                aria-label="Close list of options"
+                class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon-clickable"
+                data-test-subj="comboBoxToggleListButton"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  aria-hidden="true"
+                  class="euiFormControlLayoutCustomIcon__icon"
+                  data-euiicon-type="arrowDown"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-euiportal="true"
+  >
+    <div
+      data-focus-guard="true"
+      style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"
+      tabindex="-1"
+    />
+    <div
+      data-focus-lock-disabled="disabled"
+    >
+      <div
+        aria-live="assertive"
+        aria-modal="true"
+        class="euiPanel euiPanel--plain euiPopover__panel emotion-euiPanel-grow-m-plain-euiPopover__panel-light-isOpen-isAttached-bottom"
+        data-popover-open="true"
+        data-popover-panel="true"
+        role="dialog"
+        style="top: 0px; left: -22px; z-index: 2000; inline-size: 0px;"
+      >
+        <div>
+          <div
+            data-focus-guard="true"
+            style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"
+            tabindex="-1"
+          />
+          <div
+            data-focus-lock-disabled="disabled"
+          >
+            <div
+              class="euiComboBoxOptionsList emotion-euiComboBoxOptionList"
+              data-test-subj="comboBoxOptionsList alsoGetsAppliedToOptionsList-optionsList"
+            >
+              <div
+                class="euiComboBoxOptionsList__virtualization emotion-euiComboBoxOptionList__virtualization"
+                style="position: relative; height: 200px; width: 0px; overflow: auto; will-change: transform; direction: ltr;"
+              >
+                <div
+                  aria-label="Choose from the following options"
+                  id="generated-id_listbox"
+                  role="listbox"
+                  style="height: 290px; width: 100%;"
+                  tabindex="0"
+                >
+                  <button
+                    aria-selected="false"
+                    class="euiFilterSelectItem emotion-euiFilterSelectItem"
+                    data-test-subj="titanOption"
+                    id="generated-id__option-0"
+                    role="option"
+                    style="position: absolute; left: 0px; top: 0px; height: 29px; width: 100%;"
+                    title="Titan"
+                    type="button"
+                  >
+                    <span
+                      class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-center-row"
+                    >
+                      <span
+                        class="euiFlexItem euiFilterSelectItem__content eui-textTruncate emotion-euiFlexItem-grow-1"
+                      >
+                        <span
+                          class="euiComboBoxOption__contentWrapper"
+                        >
+                          <span
+                            class="euiComboBoxOption__content"
+                          >
+                            Titan
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </button>
+                  <button
+                    aria-selected="false"
+                    class="euiFilterSelectItem emotion-euiFilterSelectItem"
+                    id="generated-id__option-1"
+                    role="option"
+                    style="position: absolute; left: 0px; top: 29px; height: 29px; width: 100%;"
+                    title="Enceladus"
+                    type="button"
+                  >
+                    <span
+                      class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-center-row"
+                    >
+                      <span
+                        class="euiFlexItem euiFilterSelectItem__content eui-textTruncate emotion-euiFlexItem-grow-1"
+                      >
+                        <span
+                          class="euiComboBoxOption__contentWrapper"
+                        >
+                          <span
+                            class="euiComboBoxOption__content"
+                          >
+                            Enceladus
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </button>
+                  <button
+                    aria-selected="false"
+                    class="euiFilterSelectItem emotion-euiFilterSelectItem"
+                    id="generated-id__option-2"
+                    role="option"
+                    style="position: absolute; left: 0px; top: 58px; height: 29px; width: 100%;"
+                    title="Mimas"
+                    type="button"
+                  >
+                    <span
+                      class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-center-row"
+                    >
+                      <span
+                        class="euiFlexItem euiFilterSelectItem__content eui-textTruncate emotion-euiFlexItem-grow-1"
+                      >
+                        <span
+                          class="euiComboBoxOption__contentWrapper"
+                        >
+                          <span
+                            class="euiComboBoxOption__content"
+                          >
+                            Mimas
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </button>
+                  <button
+                    aria-selected="false"
+                    class="euiFilterSelectItem emotion-euiFilterSelectItem"
+                    id="generated-id__option-3"
+                    role="option"
+                    style="position: absolute; left: 0px; top: 87px; height: 29px; width: 100%;"
+                    title="Dione"
+                    type="button"
+                  >
+                    <span
+                      class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-center-row"
+                    >
+                      <span
+                        class="euiFlexItem euiFilterSelectItem__content eui-textTruncate emotion-euiFlexItem-grow-1"
+                      >
+                        <span
+                          class="euiComboBoxOption__contentWrapper"
+                        >
+                          <span
+                            class="euiComboBoxOption__content"
+                          >
+                            Dione
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </button>
+                  <button
+                    aria-selected="false"
+                    class="euiFilterSelectItem emotion-euiFilterSelectItem"
+                    id="generated-id__option-4"
+                    role="option"
+                    style="position: absolute; left: 0px; top: 116px; height: 29px; width: 100%;"
+                    title="Iapetus"
+                    type="button"
+                  >
+                    <span
+                      class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-center-row"
+                    >
+                      <span
+                        class="euiFlexItem euiFilterSelectItem__content eui-textTruncate emotion-euiFlexItem-grow-1"
+                      >
+                        <span
+                          class="euiComboBoxOption__contentWrapper"
+                        >
+                          <span
+                            class="euiComboBoxOption__content"
+                          >
+                            Iapetus
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </button>
+                  <button
+                    aria-selected="false"
+                    class="euiFilterSelectItem emotion-euiFilterSelectItem"
+                    id="generated-id__option-5"
+                    role="option"
+                    style="position: absolute; left: 0px; top: 145px; height: 29px; width: 100%;"
+                    title="Phoebe"
+                    type="button"
+                  >
+                    <span
+                      class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-center-row"
+                    >
+                      <span
+                        class="euiFlexItem euiFilterSelectItem__content eui-textTruncate emotion-euiFlexItem-grow-1"
+                      >
+                        <span
+                          class="euiComboBoxOption__contentWrapper"
+                        >
+                          <span
+                            class="euiComboBoxOption__content"
+                          >
+                            Phoebe
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </button>
+                  <button
+                    aria-selected="false"
+                    class="euiFilterSelectItem emotion-euiFilterSelectItem"
+                    id="generated-id__option-6"
+                    role="option"
+                    style="position: absolute; left: 0px; top: 174px; height: 29px; width: 100%;"
+                    title="Rhea"
+                    type="button"
+                  >
+                    <span
+                      class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-center-row"
+                    >
+                      <span
+                        class="euiFlexItem euiFilterSelectItem__content eui-textTruncate emotion-euiFlexItem-grow-1"
+                      >
+                        <span
+                          class="euiComboBoxOption__contentWrapper"
+                        >
+                          <span
+                            class="euiComboBoxOption__content"
+                          >
+                            Rhea
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </button>
+                  <button
+                    aria-selected="false"
+                    class="euiFilterSelectItem emotion-euiFilterSelectItem"
+                    id="generated-id__option-7"
+                    role="option"
+                    style="position: absolute; left: 0px; top: 203px; height: 29px; width: 100%;"
+                    title="Pandora is one of Saturn's moons, named for a Titaness of Greek mythology"
+                    type="button"
+                  >
+                    <span
+                      class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-center-row"
+                    >
+                      <span
+                        class="euiFlexItem euiFilterSelectItem__content eui-textTruncate emotion-euiFlexItem-grow-1"
+                      >
+                        <span
+                          class="euiComboBoxOption__contentWrapper"
+                        >
+                          <span
+                            class="euiComboBoxOption__content"
+                          >
+                            Pandora is one of Saturn's moons, named for a Titaness of Greek mythology
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </button>
+                  <button
+                    aria-selected="false"
+                    class="euiFilterSelectItem emotion-euiFilterSelectItem"
+                    id="generated-id__option-8"
+                    role="option"
+                    style="position: absolute; left: 0px; top: 232px; height: 29px; width: 100%;"
+                    title="Tethys"
+                    type="button"
+                  >
+                    <span
+                      class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-center-row"
+                    >
+                      <span
+                        class="euiFlexItem euiFilterSelectItem__content eui-textTruncate emotion-euiFlexItem-grow-1"
+                      >
+                        <span
+                          class="euiComboBoxOption__contentWrapper"
+                        >
+                          <span
+                            class="euiComboBoxOption__content"
+                          >
+                            Tethys
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-focus-guard="true"
+            style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      data-focus-guard="true"
+      style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"
+      tabindex="-1"
+    />
+  </div>
+</body>
+`;

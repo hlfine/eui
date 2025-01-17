@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiTableRowCell align defaults to left 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell align renders center when specified 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-center-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell align renders right when specified 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-right-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell children's className merges new classnames into existing ones 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <div
+            class="testClass"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell renders 1`] = `
+<td
+  aria-label="aria-label"
+  class="euiTableRowCell testClass1 testClass2 emotion-euiTableRowCell-middle-desktop-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+  >
+    <span
+      class="euiTableCellContent__text"
+    >
+      children
+    </span>
+  </div>
+</td>
+`;
+
+exports[`EuiTableRowCell renders mobile views 1`] = `
+<td
+  class="euiTableRowCell emotion-euiTableRowCell-middle-mobile-enlarge"
+>
+  <div
+    class="euiTableRowCell__mobileHeader emotion-euiTableRowCell__mobileHeader"
+  >
+    mobile header
+  </div>
+  <div
+    class="euiTableCellContent emotion-euiTableCellContent-truncateText"
+  >
+    <span
+      class="euiTableCellContent__text"
+    >
+      mobile render
+    </span>
+  </div>
+</td>
+`;
+
+exports[`EuiTableRowCell textOnly defaults to true 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell textOnly is rendered when specified 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell truncateText defaults to false 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell truncateText renders lines configuration 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent"
+        >
+          <span
+            class="euiTableCellContent__text euiTextBlockTruncate emotion-euiTextBlockTruncate"
+            style="-webkit-line-clamp: 2;"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell truncateText renders true 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-truncateText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell valign defaults to middle 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell valign renders bottom when specified 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-bottom-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell valign renders top when specified 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-top-desktop"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          />
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell width and style accepts style attribute 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+        style="width: 20%;"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          >
+            Test
+          </span>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell width and style accepts width attribute 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+        style="width: 10%;"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          >
+            Test
+          </span>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell width and style accepts width attribute as number 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+        style="width: 100px;"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          >
+            Test
+          </span>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`EuiTableRowCell width and style resolves style and width attribute 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+        style="width: 10%;"
+      >
+        <div
+          class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+        >
+          <span
+            class="euiTableCellContent__text"
+          >
+            Test
+          </span>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiFormControlLayoutDelimited is rendered 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiFormControlLayout euiFormControlLayoutDelimited testClass1 testClass2 emotion-euiFormControlLayout-group-delimited-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper-inGroup-prependOnly-appendOnly-delimited"
+  >
+    <span
+      class="euiFormControlLayoutDelimited__input emotion-euiFormControlLayoutDelimited__input"
+    >
+      start
+    </span>
+    <div
+      class="euiText euiFormControlLayoutDelimited__delimiter emotion-euiText-s-euiTextColor-subdued-euiFormControlLayoutDelimited__delimiter"
+    >
+      <span
+        data-euiicon-type="sortRight"
+      >
+        to
+      </span>
+    </div>
+    <span
+      class="euiFormControlLayoutDelimited__input emotion-euiFormControlLayoutDelimited__input"
+    >
+      end
+    </span>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayoutDelimited props delimiter is rendered as a node 1`] = `
+<div
+  class="euiFormControlLayout euiFormControlLayoutDelimited emotion-euiFormControlLayout-group-delimited"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper-inGroup-prependOnly-appendOnly-delimited"
+  >
+    <span
+      class="euiFormControlLayoutDelimited__input emotion-euiFormControlLayoutDelimited__input"
+    >
+      start
+    </span>
+    <div
+      class="euiText euiFormControlLayoutDelimited__delimiter emotion-euiText-s-euiTextColor-subdued-euiFormControlLayoutDelimited__delimiter"
+    >
+      <span
+        data-euiicon-type="error"
+      />
+    </div>
+    <span
+      class="euiFormControlLayoutDelimited__input emotion-euiFormControlLayoutDelimited__input"
+    >
+      end
+    </span>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayoutDelimited props delimiter is rendered as a string 1`] = `
+<div
+  class="euiFormControlLayout euiFormControlLayoutDelimited emotion-euiFormControlLayout-group-delimited"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper-inGroup-prependOnly-appendOnly-delimited"
+  >
+    <span
+      class="euiFormControlLayoutDelimited__input emotion-euiFormControlLayoutDelimited__input"
+    >
+      start
+    </span>
+    <div
+      class="euiText euiFormControlLayoutDelimited__delimiter emotion-euiText-s-euiTextColor-subdued-euiFormControlLayoutDelimited__delimiter"
+    >
+      +
+    </div>
+    <span
+      class="euiFormControlLayoutDelimited__input emotion-euiFormControlLayoutDelimited__input"
+    >
+      end
+    </span>
+  </div>
+</div>
+`;

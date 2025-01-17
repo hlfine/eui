@@ -1,0 +1,414 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiInMemoryTable behavior mobile header 1`] = `
+<div
+  class="euiTableHeaderMobile emotion-euiTableHeaderMobile"
+>
+  <div
+    class="euiCheckbox emotion-euiCheckbox"
+  >
+    <div
+      class="euiCheckbox__square emotion-euiCheckbox__square-unselected"
+    >
+      <span
+        class="emotion-euiCheckbox__icon-check"
+        data-euiicon-type="empty"
+      />
+      <input
+        aria-label="Select all rows"
+        class="euiCheckbox__input emotion-euiCheckbox__input"
+        data-test-subj="checkboxSelectAll"
+        id="_selection_column-checkbox_generated-id"
+        title="Select all rows"
+        type="checkbox"
+      />
+    </div>
+    <label
+      class="euiCheckbox__label emotion-euiCheckbox__label"
+      for="_selection_column-checkbox_generated-id"
+    >
+      Select all rows
+    </label>
+  </div>
+  <div
+    class="euiTableSortMobile emotion-euiTableSortMobile"
+  >
+    <div
+      class="euiPopover emotion-euiPopover-inline-block"
+    >
+      <button
+        class="euiButtonEmpty emotion-euiButtonDisplay-euiButtonEmpty-xs-empty-primary-flush-right"
+        type="button"
+      >
+        <span
+          class="euiButtonEmpty__content emotion-euiButtonDisplayContent"
+        >
+          <span
+            class="eui-textTruncate euiButtonEmpty__text"
+          >
+            Sorting
+          </span>
+          <span
+            color="inherit"
+            data-euiicon-type="arrowDown"
+          />
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiInMemoryTable behavior pagination 1`] = `
+<nav
+  aria-label="Pagination for table: "
+  class="euiPagination emotion-euiPagination"
+>
+  <span
+    aria-atomic="true"
+    aria-relevant="additions text"
+    class="emotion-euiScreenReaderOnly"
+    role="status"
+  >
+    Page 2 of 2
+  </span>
+  <a
+    aria-controls="__table_generated-id"
+    aria-label="Previous page"
+    class="euiButtonIcon euiPaginationArrowButton emotion-euiButtonIcon-xs-empty-text-euiPaginationButton"
+    data-test-subj="pagination-button-previous"
+    href="#__table_generated-id"
+    rel="noreferrer"
+    title="Previous page"
+  >
+    <span
+      aria-hidden="true"
+      class="euiButtonIcon__icon"
+      color="inherit"
+      data-euiicon-type="arrowLeft"
+    />
+  </a>
+  <ul
+    aria-label="Pagination for table: "
+    class="euiPagination__list emotion-euiPagination__list"
+  >
+    <li
+      class="euiPagination__item"
+    >
+      <a
+        aria-controls="__table_generated-id"
+        aria-label="Page 1 of 2"
+        class="euiButtonEmpty euiPaginationButton emotion-euiButtonDisplay-euiButtonEmpty-s-empty-text-euiPaginationButton"
+        data-test-subj="pagination-button-0"
+        href="#__table_generated-id"
+        rel="noreferrer"
+      >
+        <span
+          class="euiButtonEmpty__content emotion-euiButtonDisplayContent"
+        >
+          <span
+            class="eui-textTruncate euiButtonEmpty__text"
+          >
+            1
+          </span>
+        </span>
+      </a>
+    </li>
+    <li
+      class="euiPagination__item"
+    >
+      <button
+        aria-controls="__table_generated-id"
+        aria-current="true"
+        aria-label="Page 2 of 2"
+        class="euiButtonEmpty euiPaginationButton emotion-euiButtonDisplay-euiButtonEmpty-s-empty-disabled-isDisabled-euiPaginationButton-isActive"
+        data-test-subj="pagination-button-1"
+        disabled=""
+        type="button"
+      >
+        <span
+          class="euiButtonEmpty__content emotion-euiButtonDisplayContent"
+        >
+          <span
+            class="eui-textTruncate euiButtonEmpty__text"
+          >
+            2
+          </span>
+        </span>
+      </button>
+    </li>
+  </ul>
+  <button
+    aria-label="Next page"
+    class="euiButtonIcon euiPaginationArrowButton emotion-euiButtonIcon-xs-empty-disabled-isDisabled-euiPaginationButton"
+    data-test-subj="pagination-button-next"
+    disabled=""
+    type="button"
+  >
+    <span
+      aria-hidden="true"
+      class="euiButtonIcon__icon"
+      color="inherit"
+      data-euiicon-type="arrowRight"
+    />
+  </button>
+</nav>
+`;
+
+exports[`EuiInMemoryTable empty array 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiBasicTable testClass1 testClass2 emotion-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <span
+    aria-hidden="true"
+    class="euiScreenReaderOnly"
+    data-tabular-copy-marker="boundary"
+  >
+    𐘂𐘂
+  </span>
+  <table
+    class="euiTable emotion-euiTable-fixed-uncompressed-desktop"
+    id="__table_generated-id"
+    tabindex="-1"
+  >
+    <caption
+      class="euiTableCaption emotion-euiTableCaptionStyles-euiScreenReaderOnly"
+    >
+      <span
+        aria-hidden="true"
+        class="euiScreenReaderOnly"
+        data-tabular-copy-marker="no-copy"
+      >
+        ✄𐘗
+      </span>
+      <span
+        aria-hidden="true"
+        class="euiScreenReaderOnly"
+        data-tabular-copy-marker="no-copy"
+      >
+        ✄𐘗
+      </span>
+    </caption>
+    <thead>
+      <tr>
+        <th
+          class="euiTableHeaderCell emotion-euiTableHeaderCell"
+          data-test-subj="tableHeaderCell_name_0"
+          role="columnheader"
+          scope="col"
+        >
+          <div
+            class="euiTableCellContent emotion-euiTableCellContent-euiTableHeaderCell__content"
+          >
+            <span
+              class="eui-textTruncate"
+              title="Name; description"
+            >
+              Name
+            </span>
+            <span
+              class="emotion-euiScreenReaderOnly"
+            >
+              description
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="euiScreenReaderOnly"
+            data-tabular-copy-marker="newline"
+          >
+            ↵
+          </span>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="css-0"
+    >
+      <tr
+        class="euiTableRow emotion-euiTableRow-desktop"
+      >
+        <td
+          class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+          colspan="1"
+        >
+          <div
+            class="euiTableCellContent emotion-euiTableCellContent-center-wrapText"
+          >
+            <span
+              class="euiTableCellContent__text"
+            >
+              No items found
+            </span>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <span
+    aria-hidden="true"
+    class="euiScreenReaderOnly"
+    data-tabular-copy-marker="boundary"
+  >
+    𐘂𐘂
+  </span>
+</div>
+`;
+
+exports[`EuiInMemoryTable with items 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiBasicTable testClass1 testClass2 emotion-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <span
+    aria-hidden="true"
+    class="euiScreenReaderOnly"
+    data-tabular-copy-marker="boundary"
+  >
+    𐘂𐘂
+  </span>
+  <table
+    class="euiTable emotion-euiTable-fixed-uncompressed-desktop"
+    id="__table_generated-id"
+    tabindex="-1"
+  >
+    <caption
+      class="euiTableCaption emotion-euiTableCaptionStyles-euiScreenReaderOnly"
+    >
+      <span
+        aria-hidden="true"
+        class="euiScreenReaderOnly"
+        data-tabular-copy-marker="no-copy"
+      >
+        ✄𐘗
+      </span>
+      <span
+        aria-hidden="true"
+        class="euiScreenReaderOnly"
+        data-tabular-copy-marker="no-copy"
+      >
+        ✄𐘗
+      </span>
+    </caption>
+    <thead>
+      <tr>
+        <th
+          class="euiTableHeaderCell emotion-euiTableHeaderCell"
+          data-test-subj="tableHeaderCell_name_0"
+          role="columnheader"
+          scope="col"
+        >
+          <div
+            class="euiTableCellContent emotion-euiTableCellContent-euiTableHeaderCell__content"
+          >
+            <span
+              class="eui-textTruncate"
+              title="Name; description"
+            >
+              Name
+            </span>
+            <span
+              class="emotion-euiScreenReaderOnly"
+            >
+              description
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="euiScreenReaderOnly"
+            data-tabular-copy-marker="newline"
+          >
+            ↵
+          </span>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="css-0"
+    >
+      <tr
+        class="euiTableRow euiTableRow-isSelectable emotion-euiTableRow-desktop"
+      >
+        <td
+          class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+        >
+          <div
+            class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+          >
+            <span
+              class="euiTableCellContent__text"
+            >
+              name1
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="euiScreenReaderOnly"
+            data-tabular-copy-marker="newline"
+          >
+            ↵
+          </span>
+        </td>
+      </tr>
+      <tr
+        class="euiTableRow euiTableRow-isSelectable emotion-euiTableRow-desktop"
+      >
+        <td
+          class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+        >
+          <div
+            class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+          >
+            <span
+              class="euiTableCellContent__text"
+            >
+              name2
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="euiScreenReaderOnly"
+            data-tabular-copy-marker="newline"
+          >
+            ↵
+          </span>
+        </td>
+      </tr>
+      <tr
+        class="euiTableRow euiTableRow-isSelectable emotion-euiTableRow-desktop"
+      >
+        <td
+          class="euiTableRowCell emotion-euiTableRowCell-middle-desktop"
+        >
+          <div
+            class="euiTableCellContent emotion-euiTableCellContent-wrapText"
+          >
+            <span
+              class="euiTableCellContent__text"
+            >
+              name3
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="euiScreenReaderOnly"
+            data-tabular-copy-marker="newline"
+          >
+            ↵
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <span
+    aria-hidden="true"
+    class="euiScreenReaderOnly"
+    data-tabular-copy-marker="boundary"
+  >
+    𐘂𐘂
+  </span>
+</div>
+`;

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiHeaderBreadcrumbs is rendered 1`] = `
+<nav
+  aria-label="aria-label"
+  class="euiBreadcrumbs euiHeaderBreadcrumbs testClass1 testClass2 emotion-euiHeaderBreadcrumbs-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <ol
+    class="euiBreadcrumbs__list emotion-euiBreadcrumbs__list-isTruncated"
+  >
+    <li
+      class="euiBreadcrumb emotion-euiBreadcrumb-application-isTruncated"
+      data-test-subj="euiBreadcrumb"
+    >
+      <a
+        class="euiLink euiBreadcrumb__content customClass emotion-euiLink-subdued-euiBreadcrumb__content-application-firstChild-isTruncated"
+        data-test-subj="breadcrumbsAnimals"
+        href="#"
+        rel="noreferrer"
+        title="Animals"
+      >
+        Animals
+      </a>
+    </li>
+    <li
+      class="euiBreadcrumb emotion-euiBreadcrumb-application-isTruncated"
+      data-test-subj="euiBreadcrumb"
+    >
+      <button
+        class="euiLink euiBreadcrumb__content emotion-euiLink-subdued-euiBreadcrumb__content-application-isTruncated"
+        title="Reptiles"
+        type="button"
+      >
+        Reptiles
+      </button>
+    </li>
+    <li
+      class="euiBreadcrumb emotion-euiBreadcrumb-application-isTruncated"
+      data-test-subj="euiBreadcrumb"
+    >
+      <a
+        class="euiLink euiBreadcrumb__content emotion-euiLink-subdued-euiBreadcrumb__content-application-isTruncated"
+        href="#"
+        rel="noreferrer"
+        title="Boa constrictor"
+      >
+        Boa constrictor
+      </a>
+    </li>
+    <li
+      class="euiBreadcrumb emotion-euiBreadcrumb-application-isTruncated"
+      data-test-subj="euiBreadcrumb"
+    >
+      <span
+        aria-current="page"
+        class="euiBreadcrumb__content emotion-euiBreadcrumb__content-application-lastChild-isTruncatedLast"
+        title="Edit"
+      >
+        Edit
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`EuiHeaderBreadcrumbs renders only one breadcrumb with all rounded corners 1`] = `
+<nav
+  aria-label="aria-label"
+  class="euiBreadcrumbs euiHeaderBreadcrumbs testClass1 testClass2 emotion-euiHeaderBreadcrumbs-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <ol
+    class="euiBreadcrumbs__list emotion-euiBreadcrumbs__list-isTruncated"
+  >
+    <li
+      class="euiBreadcrumb emotion-euiBreadcrumb-application-isTruncated"
+      data-test-subj="euiBreadcrumb"
+    >
+      <span
+        aria-current="page"
+        class="euiBreadcrumb__content emotion-euiBreadcrumb__content-application-onlyChild-isTruncatedLast"
+        title="Home"
+      >
+        Home
+      </span>
+    </li>
+  </ol>
+</nav>
+`;

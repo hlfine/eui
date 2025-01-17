@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiForm is rendered 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiForm testClass1 testClass2 emotion-euiTestCss"
+  data-test-subj="test subject string"
+/>
+`;
+
+exports[`EuiForm renders a form element 1`] = `
+<form
+  aria-label="aria-label"
+  class="euiForm testClass1 testClass2 emotion-euiTestCss"
+  data-test-subj="test subject string"
+/>
+`;
+
+exports[`EuiForm renders with error callout when isInvalid is "true" 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiForm testClass1 testClass2 emotion-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    aria-live="assertive"
+    class="euiPanel euiPanel--danger euiPanel--paddingMedium euiCallOut euiCallOut--danger euiForm__errors emotion-euiPanel-none-m-danger-euiCallOut"
+    role="alert"
+    tabindex="-1"
+  >
+    <p
+      class="euiTitle euiCallOutHeader__title emotion-euiTitle-xs-euiCallOutHeader-danger"
+    >
+      Please address the highlighted errors.
+    </p>
+  </div>
+  <div
+    class="euiSpacer euiSpacer--m emotion-euiSpacer-m"
+  />
+</div>
+`;
+
+exports[`EuiForm renders with error callout when isInvalid is "true" and has multiple errors 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiForm testClass1 testClass2 emotion-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    aria-live="assertive"
+    class="euiPanel euiPanel--danger euiPanel--paddingMedium euiCallOut euiCallOut--danger euiForm__errors emotion-euiPanel-none-m-danger-euiCallOut"
+    role="alert"
+    tabindex="-1"
+  >
+    <p
+      class="euiTitle euiCallOutHeader__title emotion-euiTitle-xs-euiCallOutHeader-danger"
+    >
+      Please address the highlighted errors.
+    </p>
+    <div
+      class="euiSpacer euiSpacer--s emotion-euiSpacer-s"
+    />
+    <div
+      class="euiText emotion-euiText-s-euiTextColor-default"
+    >
+      <ul>
+        <li
+          class="euiForm__error"
+        >
+          <span>
+            This is one error
+          </span>
+        </li>
+        <li
+          class="euiForm__error"
+        >
+          <span>
+            This is another error
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="euiSpacer euiSpacer--m emotion-euiSpacer-m"
+  />
+</div>
+`;
+
+exports[`EuiForm renders with error callout when isInvalid is "true" and has one error 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiForm testClass1 testClass2 emotion-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    aria-live="assertive"
+    class="euiPanel euiPanel--danger euiPanel--paddingMedium euiCallOut euiCallOut--danger euiForm__errors emotion-euiPanel-none-m-danger-euiCallOut"
+    role="alert"
+    tabindex="-1"
+  >
+    <p
+      class="euiTitle euiCallOutHeader__title emotion-euiTitle-xs-euiCallOutHeader-danger"
+    >
+      Please address the highlighted errors.
+    </p>
+    <div
+      class="euiSpacer euiSpacer--s emotion-euiSpacer-s"
+    />
+    <div
+      class="euiText emotion-euiText-s-euiTextColor-default"
+    >
+      <ul>
+        <li
+          class="euiForm__error"
+        >
+          <span>
+            This is one error
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="euiSpacer euiSpacer--m emotion-euiSpacer-m"
+  />
+</div>
+`;
+
+exports[`EuiForm renders without error callout when invalidCallout is "none" 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiForm testClass1 testClass2 emotion-euiTestCss"
+  data-test-subj="test subject string"
+/>
+`;

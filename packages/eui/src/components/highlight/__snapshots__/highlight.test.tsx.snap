@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiHighlight is rendered 1`] = `
+<span
+  aria-label="aria-label"
+  class="testClass1 testClass2 emotion-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <mark
+    class="euiMark emotion-euiMark-hasScreenReaderHelpText"
+  >
+    va
+  </mark>
+  lue
+</span>
+`;

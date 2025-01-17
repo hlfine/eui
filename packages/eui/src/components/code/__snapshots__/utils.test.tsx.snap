@@ -1,0 +1,1480 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`line utils highlightByLine with line numbers renders two elements per line: .euiCodeBlock__lineNumber and .euiCodeBlock__lineText 1`] = `
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 1,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 8,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "lineEnd": 1,
+                "lineStart": 1,
+                "type": "text",
+                "value": "{",
+              },
+            ],
+            "lineEnd": 1,
+            "lineStart": 1,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 1,
+            "lineStart": 1,
+            "type": "text",
+            "value": "
+",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-rnrc4n-euiCodeBlock__lineText",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 2,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 8,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": "    ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ""id"",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "property",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ":",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "operator",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": " ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ""1"",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ",",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": "
+",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-rnrc4n-euiCodeBlock__lineText",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 3,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 8,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 3,
+            "lineStart": 3,
+            "type": "text",
+            "value": "  ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 3,
+                "lineStart": 3,
+                "type": "text",
+                "value": "}",
+              },
+            ],
+            "lineEnd": 3,
+            "lineStart": 3,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-rnrc4n-euiCodeBlock__lineText",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+]
+`;
+
+exports[`line utils highlightByLine with line numbers with a custom starting number adds the starting lineNumber to each node 1`] = `
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 10,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 16,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "lineEnd": 10,
+                "lineStart": 10,
+                "type": "text",
+                "value": "{",
+              },
+            ],
+            "lineEnd": 10,
+            "lineStart": 10,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 10,
+            "lineStart": 10,
+            "type": "text",
+            "value": "
+",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-rnrc4n-euiCodeBlock__lineText",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 11,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 16,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 11,
+            "lineStart": 11,
+            "type": "text",
+            "value": "    ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 11,
+                "lineStart": 11,
+                "type": "text",
+                "value": ""id"",
+              },
+            ],
+            "lineEnd": 11,
+            "lineStart": 11,
+            "properties": {
+              "className": [
+                "token",
+                "property",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 11,
+                "lineStart": 11,
+                "type": "text",
+                "value": ":",
+              },
+            ],
+            "lineEnd": 11,
+            "lineStart": 11,
+            "properties": {
+              "className": [
+                "token",
+                "operator",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 11,
+            "lineStart": 11,
+            "type": "text",
+            "value": " ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 11,
+                "lineStart": 11,
+                "type": "text",
+                "value": ""1"",
+              },
+            ],
+            "lineEnd": 11,
+            "lineStart": 11,
+            "properties": {
+              "className": [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 11,
+                "lineStart": 11,
+                "type": "text",
+                "value": ",",
+              },
+            ],
+            "lineEnd": 11,
+            "lineStart": 11,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 11,
+            "lineStart": 11,
+            "type": "text",
+            "value": "
+",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-rnrc4n-euiCodeBlock__lineText",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 12,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 16,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 12,
+            "lineStart": 12,
+            "type": "text",
+            "value": "  ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 12,
+                "lineStart": 12,
+                "type": "text",
+                "value": "}",
+              },
+            ],
+            "lineEnd": 12,
+            "lineStart": 12,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-rnrc4n-euiCodeBlock__lineText",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+]
+`;
+
+exports[`line utils highlightByLine with line numbers with annotations adds a custom annotation object after the lineNumber object 1`] = `
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 1,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "annotation": "Hello world",
+            "lineNumber": 1,
+            "type": "annotation",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 8,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "lineEnd": 1,
+                "lineStart": 1,
+                "type": "text",
+                "value": "{",
+              },
+            ],
+            "lineEnd": 1,
+            "lineStart": 1,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 1,
+            "lineStart": 1,
+            "type": "text",
+            "value": "
+",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-rnrc4n-euiCodeBlock__lineText",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 2,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 8,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": "    ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ""id"",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "property",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ":",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "operator",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": " ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ""1"",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ",",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": "
+",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-rnrc4n-euiCodeBlock__lineText",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 3,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 8,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 3,
+            "lineStart": 3,
+            "type": "text",
+            "value": "  ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 3,
+                "lineStart": 3,
+                "type": "text",
+                "value": "}",
+              },
+            ],
+            "lineEnd": 3,
+            "lineStart": 3,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-rnrc4n-euiCodeBlock__lineText",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+]
+`;
+
+exports[`line utils highlightByLine with line numbers with highlighted lines adds a class to the specified lines 1`] = `
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 1,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 8,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "lineEnd": 1,
+                "lineStart": 1,
+                "type": "text",
+                "value": "{",
+              },
+            ],
+            "lineEnd": 1,
+            "lineStart": 1,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 1,
+            "lineStart": 1,
+            "type": "text",
+            "value": "
+",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-1l6uyoo-euiCodeBlock__lineText-isHighlighted",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 2,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 8,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": "    ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ""id"",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "property",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ":",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "operator",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": " ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ""1"",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "string",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 2,
+                "lineStart": 2,
+                "type": "text",
+                "value": ",",
+              },
+            ],
+            "lineEnd": 2,
+            "lineStart": 2,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": "
+",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-1l6uyoo-euiCodeBlock__lineText-isHighlighted",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "properties": {
+              "aria-hidden": true,
+              "className": [
+                "euiCodeBlock__lineNumber",
+                "css-19pu25o-euiCodeBlock__lineNumber",
+              ],
+              "data-line-number": 3,
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineNumberWrapper",
+            "css-wlfghs-euiCodeBlock__lineNumberWrapper",
+          ],
+          "style": {
+            "inlineSize": 8,
+          },
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 3,
+            "lineStart": 3,
+            "type": "text",
+            "value": "  ",
+          },
+          {
+            "children": [
+              {
+                "lineEnd": 3,
+                "lineStart": 3,
+                "type": "text",
+                "value": "}",
+              },
+            ],
+            "lineEnd": 3,
+            "lineStart": 3,
+            "properties": {
+              "className": [
+                "token",
+                "punctuation",
+              ],
+            },
+            "tagName": "span",
+            "type": "element",
+          },
+        ],
+        "properties": {
+          "className": [
+            "euiCodeBlock__lineText",
+            "css-rnrc4n-euiCodeBlock__lineText",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-8rt6cm-euiCodeBlock__line-hasLineNumbers",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+]
+`;
+
+exports[`line utils highlightByLine without line numbers renders a single .euiCodeBlock__line element per line 1`] = `
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "lineEnd": 1,
+            "lineStart": 1,
+            "type": "text",
+            "value": "{",
+          },
+        ],
+        "lineEnd": 1,
+        "lineStart": 1,
+        "properties": {
+          "className": [
+            "token",
+            "punctuation",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "lineEnd": 1,
+        "lineStart": 1,
+        "type": "text",
+        "value": "
+",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-yn676d-euiCodeBlock__line",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  {
+    "children": [
+      {
+        "lineEnd": 2,
+        "lineStart": 2,
+        "type": "text",
+        "value": "    ",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": ""id"",
+          },
+        ],
+        "lineEnd": 2,
+        "lineStart": 2,
+        "properties": {
+          "className": [
+            "token",
+            "property",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": ":",
+          },
+        ],
+        "lineEnd": 2,
+        "lineStart": 2,
+        "properties": {
+          "className": [
+            "token",
+            "operator",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "lineEnd": 2,
+        "lineStart": 2,
+        "type": "text",
+        "value": " ",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": ""1"",
+          },
+        ],
+        "lineEnd": 2,
+        "lineStart": 2,
+        "properties": {
+          "className": [
+            "token",
+            "string",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 2,
+            "lineStart": 2,
+            "type": "text",
+            "value": ",",
+          },
+        ],
+        "lineEnd": 2,
+        "lineStart": 2,
+        "properties": {
+          "className": [
+            "token",
+            "punctuation",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+      {
+        "lineEnd": 2,
+        "lineStart": 2,
+        "type": "text",
+        "value": "
+",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-yn676d-euiCodeBlock__line",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+  {
+    "children": [
+      {
+        "lineEnd": 3,
+        "lineStart": 3,
+        "type": "text",
+        "value": "  ",
+      },
+      {
+        "children": [
+          {
+            "lineEnd": 3,
+            "lineStart": 3,
+            "type": "text",
+            "value": "}",
+          },
+        ],
+        "lineEnd": 3,
+        "lineStart": 3,
+        "properties": {
+          "className": [
+            "token",
+            "punctuation",
+          ],
+        },
+        "tagName": "span",
+        "type": "element",
+      },
+    ],
+    "properties": {
+      "className": [
+        "euiCodeBlock__line",
+        "css-yn676d-euiCodeBlock__line",
+      ],
+    },
+    "tagName": "span",
+    "type": "element",
+  },
+]
+`;
+
+exports[`shared utils nodeToHtml handles rendering custom annotation types 1`] = `
+<span
+  class="hello-world"
+>
+  <div
+    class="euiPopover euiCodeBlock__lineAnnotation emotion-euiPopover-inline-block-euiCodeBlockAnnotation"
+  >
+    <button
+      aria-label="Click to view a code annotation for line 3"
+      class="emotion-euiCodeBlockAnnotation__buttonIcon"
+      data-test-subj="euiCodeBlockAnnotationIcon"
+    >
+      <span
+        color="ghost"
+        data-euiicon-type="AnnotationInfoIcon"
+      />
+    </button>
+  </div>
+</span>
+`;
+
+exports[`shared utils nodeToHtml recursively converts refactor nodes to React JSX 1`] = `
+<span
+  class="hello-world"
+>
+  Hello world
+</span>
+`;

@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiSuperSelectControl is rendered 1`] = `
+<div>
+  <input
+    type="hidden"
+    value=""
+  />
+  <div
+    class="euiFormControlLayout emotion-euiFormControlLayout"
+  >
+    <div
+      class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+      style="--euiFormControlRightIconsCount: 1;"
+    >
+      <button
+        aria-haspopup="listbox"
+        aria-label="aria-label"
+        class="euiSuperSelectControl testClass1 testClass2 emotion-euiSuperSelect__control-euiTestCss"
+        data-test-subj="test subject string"
+        type="button"
+      />
+      <div
+        class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+      >
+        <span
+          class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+        >
+          <span
+            aria-hidden="true"
+            class="euiFormControlLayoutCustomIcon__icon"
+            data-euiicon-type="arrowDown"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiSuperSelectControl props compressed is rendered 1`] = `
+<div>
+  <input
+    type="hidden"
+    value=""
+  />
+  <div
+    class="euiFormControlLayout emotion-euiFormControlLayout-compressed"
+  >
+    <div
+      class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+      style="--euiFormControlRightIconsCount: 1;"
+    >
+      <button
+        aria-haspopup="listbox"
+        class="euiSuperSelectControl emotion-euiSuperSelect__control-compressed"
+        type="button"
+      />
+      <div
+        class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-compressed-absolute-right"
+      >
+        <span
+          class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+        >
+          <span
+            aria-hidden="true"
+            class="euiFormControlLayoutCustomIcon__icon"
+            data-euiicon-type="arrowDown"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiSuperSelectControl props disabled options are rendered 1`] = `
+<div>
+  <input
+    type="hidden"
+    value=""
+  />
+  <div
+    class="euiFormControlLayout emotion-euiFormControlLayout"
+  >
+    <div
+      class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+      style="--euiFormControlRightIconsCount: 1;"
+    >
+      <button
+        aria-haspopup="listbox"
+        class="euiSuperSelectControl emotion-euiSuperSelect__control"
+        type="button"
+      />
+      <div
+        class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+      >
+        <span
+          class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+        >
+          <span
+            aria-hidden="true"
+            class="euiFormControlLayoutCustomIcon__icon"
+            data-euiicon-type="arrowDown"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiSuperSelectControl props empty value option is rendered 1`] = `
+<div>
+  <input
+    type="hidden"
+    value=""
+  />
+  <div
+    class="euiFormControlLayout emotion-euiFormControlLayout"
+  >
+    <div
+      class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+      style="--euiFormControlRightIconsCount: 1;"
+    >
+      <button
+        aria-haspopup="listbox"
+        class="euiSuperSelectControl emotion-euiSuperSelect__control"
+        type="button"
+      />
+      <div
+        class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+      >
+        <span
+          class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+        >
+          <span
+            aria-hidden="true"
+            class="euiFormControlLayoutCustomIcon__icon"
+            data-euiicon-type="arrowDown"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiSuperSelectControl props fullWidth is rendered 1`] = `
+<div>
+  <input
+    type="hidden"
+    value=""
+  />
+  <div
+    class="euiFormControlLayout emotion-euiFormControlLayout-fullWidth"
+  >
+    <div
+      class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+      style="--euiFormControlRightIconsCount: 1;"
+    >
+      <button
+        aria-haspopup="listbox"
+        class="euiSuperSelectControl emotion-euiSuperSelect__control-fullWidth"
+        type="button"
+      />
+      <div
+        class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+      >
+        <span
+          class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+        >
+          <span
+            aria-hidden="true"
+            class="euiFormControlLayoutCustomIcon__icon"
+            data-euiicon-type="arrowDown"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiSuperSelectControl props isInvalid is rendered 1`] = `
+<div>
+  <input
+    type="hidden"
+    value=""
+  />
+  <div
+    class="euiFormControlLayout emotion-euiFormControlLayout"
+  >
+    <div
+      class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+      style="--euiFormControlRightIconsCount: 2;"
+    >
+      <button
+        aria-haspopup="listbox"
+        class="euiSuperSelectControl euiSuperSelectControl-isInvalid emotion-euiSuperSelect__control-invalid"
+        type="button"
+      />
+      <div
+        class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+      >
+        <span
+          color="danger"
+          data-euiicon-type="warning"
+        />
+        <span
+          class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+        >
+          <span
+            aria-hidden="true"
+            class="euiFormControlLayoutCustomIcon__icon"
+            data-euiicon-type="arrowDown"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiSuperSelectControl props isLoading is rendered 1`] = `
+<div>
+  <input
+    type="hidden"
+    value=""
+  />
+  <div
+    class="euiFormControlLayout emotion-euiFormControlLayout"
+  >
+    <div
+      class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+      style="--euiFormControlRightIconsCount: 2;"
+    >
+      <button
+        aria-haspopup="listbox"
+        class="euiSuperSelectControl euiSuperSelectControl-isLoading emotion-euiSuperSelect__control"
+        type="button"
+      />
+      <div
+        class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+      >
+        <span
+          aria-label="Loading"
+          class="euiLoadingSpinner emotion-euiLoadingSpinner-m"
+          role="progressbar"
+        />
+        <span
+          class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+        >
+          <span
+            aria-hidden="true"
+            class="euiFormControlLayoutCustomIcon__icon"
+            data-euiicon-type="arrowDown"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiSuperSelectControl props placeholder is rendered 1`] = `
+<div>
+  <input
+    type="hidden"
+    value=""
+  />
+  <div
+    class="euiFormControlLayout emotion-euiFormControlLayout"
+  >
+    <div
+      class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+      style="--euiFormControlRightIconsCount: 1;"
+    >
+      <button
+        aria-haspopup="listbox"
+        class="euiSuperSelectControl emotion-euiSuperSelect__control"
+        type="button"
+      >
+        <span
+          class="euiSuperSelectControl__placeholder emotion-euiSuperSelect__placeholder"
+        >
+          Select an option
+        </span>
+      </button>
+      <div
+        class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+      >
+        <span
+          class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+        >
+          <span
+            aria-hidden="true"
+            class="euiFormControlLayoutCustomIcon__icon"
+            data-euiicon-type="arrowDown"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiSuperSelectControl props value option is rendered 1`] = `
+<div>
+  <input
+    type="hidden"
+    value="1"
+  />
+  <div
+    class="euiFormControlLayout emotion-euiFormControlLayout"
+  >
+    <div
+      class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+      style="--euiFormControlRightIconsCount: 1;"
+    >
+      <button
+        aria-haspopup="listbox"
+        class="euiSuperSelectControl emotion-euiSuperSelect__control"
+        type="button"
+      >
+        Option #1
+      </button>
+      <div
+        class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+      >
+        <span
+          class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+        >
+          <span
+            aria-hidden="true"
+            class="euiFormControlLayoutCustomIcon__icon"
+            data-euiicon-type="arrowDown"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

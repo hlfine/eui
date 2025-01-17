@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiSearchBox render - custom placeholder and incremental 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout-fullWidth"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlLeftIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-left"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="search"
+        />
+      </span>
+    </div>
+    <input
+      aria-label="aria-label"
+      class="euiFieldSearch testClass1 testClass2 emotion-euiFieldSearch-fullWidth-euiTestCss"
+      data-test-subj="test subject string"
+      placeholder="..."
+      type="search"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiSearchBox render - no config 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout-fullWidth"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlLeftIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-left"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="search"
+        />
+      </span>
+    </div>
+    <input
+      aria-label="aria-label"
+      class="euiFieldSearch testClass1 testClass2 emotion-euiFieldSearch-fullWidth-euiTestCss"
+      data-test-subj="test subject string"
+      placeholder="Search..."
+      type="search"
+      value=""
+    />
+  </div>
+</div>
+`;

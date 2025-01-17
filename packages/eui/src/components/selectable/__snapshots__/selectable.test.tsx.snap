@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiSelectable custom options with data 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+>
+  <div
+    class="euiSelectableList emotion-euiSelectableList"
+    data-test-subj="euiSelectableList"
+  >
+    <div
+      data-eui="EuiAutoSizer"
+    >
+      <div
+        class="euiSelectableList__list emotion-euiSelectableList__list"
+        style="position: relative; height: 96px; width: 600px; overflow: auto; will-change: transform; direction: ltr;"
+        tabindex="-1"
+      >
+        <ul
+          aria-multiselectable="true"
+          id="generated-id_listbox"
+          role="listbox"
+          style="height: 96px; width: 100%;"
+          tabindex="0"
+        >
+          <li
+            aria-checked="false"
+            aria-posinset="1"
+            aria-selected="false"
+            aria-setsize="3"
+            class="euiSelectableListItem emotion-euiSelectableListItem-s"
+            id="generated-id_listbox_option-0"
+            role="option"
+            style="position: absolute; left: 0px; top: 0px; height: 32px; width: 100%;"
+            title="Titan"
+          >
+            <span
+              class="euiSelectableListItem__content emotion-euiSelectableListItem__content"
+            >
+              <span
+                class="euiSelectableListItem__icon emotion-euiSelectableListItem__prepend"
+                data-euiicon-type="empty"
+              />
+              <span
+                class="euiSelectableListItem__text emotion-euiSelectableListItem__text-truncate"
+              >
+                <span>
+                  VI
+                  : 
+                  Titan
+                </span>
+              </span>
+            </span>
+          </li>
+          <li
+            aria-checked="false"
+            aria-posinset="2"
+            aria-selected="false"
+            aria-setsize="3"
+            class="euiSelectableListItem emotion-euiSelectableListItem-s"
+            id="generated-id_listbox_option-1"
+            role="option"
+            style="position: absolute; left: 0px; top: 32px; height: 32px; width: 100%;"
+            title="Enceladus"
+          >
+            <span
+              class="euiSelectableListItem__content emotion-euiSelectableListItem__content"
+            >
+              <span
+                class="euiSelectableListItem__icon emotion-euiSelectableListItem__prepend"
+                data-euiicon-type="empty"
+              />
+              <span
+                class="euiSelectableListItem__text emotion-euiSelectableListItem__text-truncate"
+              >
+                <span>
+                  II
+                  : 
+                  Enceladus
+                </span>
+              </span>
+            </span>
+          </li>
+          <li
+            aria-checked="false"
+            aria-posinset="3"
+            aria-selected="false"
+            aria-setsize="3"
+            class="euiSelectableListItem emotion-euiSelectableListItem-s"
+            id="generated-id_listbox_option-2"
+            role="option"
+            style="position: absolute; left: 0px; top: 64px; height: 32px; width: 100%;"
+            title="Pandora is one of Saturn's moons, named for a Titaness of Greek mythology"
+          >
+            <span
+              class="euiSelectableListItem__content emotion-euiSelectableListItem__content"
+            >
+              <span
+                class="euiSelectableListItem__icon emotion-euiSelectableListItem__prepend"
+                data-euiicon-type="empty"
+              />
+              <span
+                class="euiSelectableListItem__text emotion-euiSelectableListItem__text-truncate"
+              >
+                <span>
+                  XVII
+                  : 
+                  Pandora is one of Saturn's moons, named for a Titaness of Greek mythology
+                </span>
+              </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiSelectable errorMessage prop can render an element as the message 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+>
+  <div
+    class="euiText euiSelectableMessage emotion-euiText-xs-euiTextColor-subdued-euiSelectableMessage"
+    data-test-subj="euiSelectableMessage"
+    id="generated-id_messageContent"
+  >
+    <span>
+      Element error!
+    </span>
+  </div>
+</div>
+`;
+
+exports[`EuiSelectable errorMessage prop does not render the message when not defined 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+>
+  <div
+    class="euiSelectableList emotion-euiSelectableList"
+    data-test-subj="euiSelectableList"
+  >
+    <div
+      data-eui="EuiAutoSizer"
+    >
+      <div
+        class="euiSelectableList__list emotion-euiSelectableList__list"
+        style="position: relative; height: 96px; width: 600px; overflow: auto; will-change: transform; direction: ltr;"
+        tabindex="-1"
+      >
+        <ul
+          aria-multiselectable="true"
+          id="generated-id_listbox"
+          role="listbox"
+          style="height: 96px; width: 100%;"
+          tabindex="0"
+        >
+          <li
+            aria-checked="false"
+            aria-posinset="1"
+            aria-selected="false"
+            aria-setsize="3"
+            class="euiSelectableListItem emotion-euiSelectableListItem-s"
+            data-test-subj="titanOption"
+            id="generated-id_listbox_option-0"
+            role="option"
+            style="position: absolute; left: 0px; top: 0px; height: 32px; width: 100%;"
+            title="Titan"
+          >
+            <span
+              class="euiSelectableListItem__content emotion-euiSelectableListItem__content"
+            >
+              <span
+                class="euiSelectableListItem__icon emotion-euiSelectableListItem__prepend"
+                data-euiicon-type="empty"
+              />
+              <span
+                class="euiSelectableListItem__text emotion-euiSelectableListItem__text-truncate"
+              >
+                Titan
+              </span>
+            </span>
+          </li>
+          <li
+            aria-checked="false"
+            aria-posinset="2"
+            aria-selected="false"
+            aria-setsize="3"
+            class="euiSelectableListItem emotion-euiSelectableListItem-s"
+            id="generated-id_listbox_option-1"
+            role="option"
+            style="position: absolute; left: 0px; top: 32px; height: 32px; width: 100%;"
+            title="Enceladus"
+          >
+            <span
+              class="euiSelectableListItem__content emotion-euiSelectableListItem__content"
+            >
+              <span
+                class="euiSelectableListItem__icon emotion-euiSelectableListItem__prepend"
+                data-euiicon-type="empty"
+              />
+              <span
+                class="euiSelectableListItem__text emotion-euiSelectableListItem__text-truncate"
+              >
+                Enceladus
+              </span>
+            </span>
+          </li>
+          <li
+            aria-checked="false"
+            aria-posinset="3"
+            aria-selected="false"
+            aria-setsize="3"
+            class="euiSelectableListItem emotion-euiSelectableListItem-s"
+            id="generated-id_listbox_option-2"
+            role="option"
+            style="position: absolute; left: 0px; top: 64px; height: 32px; width: 100%;"
+            title="Pandora is one of Saturn's moons, named for a Titaness of Greek mythology"
+          >
+            <span
+              class="euiSelectableListItem__content emotion-euiSelectableListItem__content"
+            >
+              <span
+                class="euiSelectableListItem__icon emotion-euiSelectableListItem__prepend"
+                data-euiicon-type="empty"
+              />
+              <span
+                class="euiSelectableListItem__text emotion-euiSelectableListItem__text-truncate"
+              >
+                Pandora is one of Saturn's moons, named for a Titaness of Greek mythology
+              </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiSelectable errorMessage prop does renders the message when defined 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+>
+  <div
+    class="euiText euiSelectableMessage emotion-euiText-xs-euiTextColor-subdued-euiSelectableMessage"
+    data-test-subj="euiSelectableMessage"
+    id="generated-id_messageContent"
+  >
+    <p>
+      Error!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`EuiSelectable is rendered 1`] = `
+<div
+  class="euiSelectable testClass1 testClass2 emotion-euiSelectable-euiTestCss"
+  data-test-subj="test subject string"
+  id="testId"
+/>
+`;
+
+exports[`EuiSelectable props allowExclusions 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+/>
+`;
+
+exports[`EuiSelectable props height can be forced 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+/>
+`;
+
+exports[`EuiSelectable props height can be full 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable-fullHeight"
+/>
+`;
+
+exports[`EuiSelectable props isLoading 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+/>
+`;
+
+exports[`EuiSelectable props listProps 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+/>
+`;
+
+exports[`EuiSelectable props renderOption 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+/>
+`;
+
+exports[`EuiSelectable props searchable 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+/>
+`;
+
+exports[`EuiSelectable props singleSelection 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+/>
+`;
+
+exports[`EuiSelectable search value supports inheriting initialSearchValue from searchProps.defaultValue 1`] = `
+<div
+  class="euiSelectable emotion-euiSelectable"
+>
+  <div
+    class="emotion-euiScreenReaderOnly"
+  >
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      role="status"
+    >
+      <p>
+        <strong>
+          default value
+        </strong>
+         doesn't match any options
+      </p>
+    </div>
+    <div
+      aria-atomic="true"
+      aria-hidden="true"
+      aria-live="off"
+      role="status"
+    />
+  </div>
+  <div
+    class="euiText euiSelectableMessage emotion-euiText-xs-euiTextColor-subdued-euiSelectableMessage"
+    data-test-subj="euiSelectableMessage"
+    id="generated-id_messageContent"
+  >
+    <p>
+      <strong>
+        default value
+      </strong>
+       doesn't match any options
+    </p>
+  </div>
+  <div
+    class="euiFormControlLayout emotion-euiFormControlLayout-fullWidth"
+  >
+    <div
+      class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+      style="--euiFormControlLeftIconsCount: 1; --euiFormControlRightIconsCount: 1;"
+    >
+      <div
+        class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-left"
+      >
+        <span
+          class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+        >
+          <span
+            aria-hidden="true"
+            class="euiFormControlLayoutCustomIcon__icon"
+            data-euiicon-type="search"
+          />
+        </span>
+      </div>
+      <input
+        aria-activedescendant=""
+        aria-describedby="generated-id_instructions"
+        aria-haspopup="listbox"
+        aria-label="Filter options"
+        autocomplete="off"
+        class="euiFieldSearch euiFieldSearch-isClearable euiSelectableSearch emotion-euiFieldSearch-fullWidth"
+        data-test-subj="searchInput"
+        placeholder="Filter options"
+        type="search"
+        value="default value"
+      />
+      <div
+        class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+      >
+        <button
+          aria-label="Clear search input"
+          class="euiFormControlLayoutClearButton emotion-euiFormControlLayoutClearButton"
+          data-test-subj="clearSearchButton"
+          type="button"
+        >
+          <span
+            class="euiFormControlLayoutClearButton__icon emotion-euiFormControlLayoutClearButton__icon-m"
+            data-euiicon-type="cross"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <p
+    class="emotion-euiScreenReaderOnly"
+    id="generated-id_instructions"
+  >
+     
+    Use the Up and Down arrow keys to move focus over options. Press Enter to select. Press Escape to collapse options.
+  </p>
+</div>
+`;

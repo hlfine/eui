@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpandedItemActions renders 1`] = `
+<div>
+  <span
+    class="euiToolTipAnchor emotion-euiToolTipAnchor-inlineBlock"
+  >
+    <button
+      class="euiButtonEmpty emotion-euiButtonDisplay-euiButtonEmpty-s-empty-primary-flush-right"
+      type="button"
+    >
+      <span
+        class="euiButtonEmpty__content emotion-euiButtonDisplayContent"
+      >
+        <span
+          class="eui-textTruncate euiButtonEmpty__text"
+        >
+          default1
+        </span>
+      </span>
+    </button>
+  </span>
+  <div
+    class=""
+  />
+  <span
+    class="euiToolTipAnchor emotion-euiToolTipAnchor-inlineBlock"
+  >
+    <a
+      class="euiButtonEmpty euiBasicTableAction-showOnHover emotion-euiButtonDisplay-euiButtonEmpty-s-empty-primary-flush-right"
+      href="#"
+      rel="noreferrer"
+    >
+      <span
+        class="euiButtonEmpty__content emotion-euiButtonDisplayContent"
+      >
+        <span
+          class="eui-textTruncate euiButtonEmpty__text"
+        >
+          showOnHover
+        </span>
+      </span>
+    </a>
+  </span>
+</div>
+`;

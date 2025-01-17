@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiSelectableSearch is rendered 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout-fullWidth"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlLeftIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-left"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="search"
+        />
+      </span>
+    </div>
+    <input
+      aria-haspopup="listbox"
+      aria-label="aria-label"
+      autocomplete="off"
+      class="euiFieldSearch euiSelectableSearch testClass1 testClass2 emotion-euiFieldSearch-fullWidth-euiTestCss"
+      data-test-subj="test subject string"
+      type="search"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiSelectableSearch renders aria props if a listId is present 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout-fullWidth"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlLeftIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-left"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="search"
+        />
+      </span>
+    </div>
+    <input
+      aria-autocomplete="list"
+      aria-controls="list"
+      aria-expanded="true"
+      aria-haspopup="listbox"
+      aria-label="aria-label"
+      aria-owns="list"
+      autocomplete="off"
+      class="euiFieldSearch euiSelectableSearch testClass1 testClass2 emotion-euiFieldSearch-fullWidth-euiTestCss"
+      data-test-subj="test subject string"
+      role="combobox"
+      type="search"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiSelectableSearch renders placeholder, value, name, and other remaining EuiFieldSearch props 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout-fullWidth"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlLeftIconsCount: 1; --euiFormControlRightIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-left"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="search"
+        />
+      </span>
+    </div>
+    <input
+      aria-haspopup="listbox"
+      aria-label="aria-label"
+      autocomplete="off"
+      class="euiFieldSearch euiFieldSearch-isClearable euiSelectableSearch testClass emotion-euiFieldSearch-fullWidth-euiTestCss"
+      data-test-subj="test subject string"
+      id="testId"
+      name="testName"
+      placeholder="start typing"
+      type="search"
+      value="typed"
+    />
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+    >
+      <button
+        aria-label="Clear search input"
+        class="euiFormControlLayoutClearButton emotion-euiFormControlLayoutClearButton"
+        data-test-subj="clearSearchButton"
+        type="button"
+      >
+        <span
+          class="euiFormControlLayoutClearButton__icon emotion-euiFormControlLayoutClearButton__icon-m"
+          data-euiicon-type="cross"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

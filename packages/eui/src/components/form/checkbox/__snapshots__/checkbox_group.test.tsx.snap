@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiCheckboxGroup (mocked checkbox) disabled is rendered 1`] = `
+<div
+  class="euiCheckboxGroup emotion-euiCheckboxGroup"
+>
+  <div
+    data-eui-checkbox=""
+  />
+  <div
+    data-eui-checkbox=""
+  />
+</div>
+`;
+
+exports[`EuiCheckboxGroup (mocked checkbox) idToSelectedMap is rendered 1`] = `
+<div
+  class="euiCheckboxGroup emotion-euiCheckboxGroup"
+>
+  <div
+    data-eui-checkbox=""
+  />
+  <div
+    data-eui-checkbox=""
+  />
+</div>
+`;
+
+exports[`EuiCheckboxGroup (mocked checkbox) individual disabled is rendered 1`] = `
+<div
+  class="euiCheckboxGroup emotion-euiCheckboxGroup"
+>
+  <div
+    data-eui-checkbox=""
+  />
+  <div
+    data-eui-checkbox=""
+  />
+</div>
+`;
+
+exports[`EuiCheckboxGroup (mocked checkbox) is rendered 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiCheckboxGroup testClass1 testClass2 emotion-euiCheckboxGroup-euiTestCss"
+  data-test-subj="test subject string"
+/>
+`;
+
+exports[`EuiCheckboxGroup (mocked checkbox) legend is rendered 1`] = `
+<fieldset
+  class="euiCheckboxGroup emotion-euiCheckboxGroup"
+>
+  <legend
+    class="euiFormLegend emotion-euiFormLegend"
+  >
+    A legend
+  </legend>
+</fieldset>
+`;
+
+exports[`EuiCheckboxGroup (mocked checkbox) options are rendered 1`] = `
+<div
+  class="euiCheckboxGroup emotion-euiCheckboxGroup"
+>
+  <div
+    data-eui-checkbox=""
+  />
+  <div
+    data-eui-checkbox=""
+  />
+</div>
+`;

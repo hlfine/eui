@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiSwitch assigns automatically generated ID to label 1`] = `
+<div
+  class="euiSwitch emotion-euiSwitch"
+>
+  <button
+    aria-checked="false"
+    aria-labelledby="generated-id"
+    class="euiSwitch__button emotion-euiSwitch__button"
+    id="generated-id"
+    role="switch"
+    type="button"
+  >
+    <span
+      class="euiSwitch__body emotion-euiSwitch__body-off"
+    >
+      <span
+        class="euiSwitch__icons emotion-euiSwitch__icons-off-enabled"
+      >
+        <span
+          data-euiicon-type="check"
+        />
+        <span
+          data-euiicon-type="cross"
+        />
+      </span>
+    </span>
+    <span
+      class="euiSwitch__thumb emotion-euiSwitch__thumb-off"
+    />
+  </button>
+  <span
+    class="euiSwitch__label emotion-euiSwitch__label"
+    id="generated-id"
+  >
+    Label
+  </span>
+</div>
+`;
+
+exports[`EuiSwitch is rendered 1`] = `
+<div
+  class="euiSwitch testClass1 testClass2 emotion-euiSwitch-euiTestCss"
+>
+  <button
+    aria-checked="false"
+    aria-label="aria-label"
+    aria-labelledby="generated-id"
+    class="euiSwitch__button emotion-euiSwitch__button"
+    data-test-subj="test subject string"
+    id="test"
+    role="switch"
+    type="button"
+  >
+    <span
+      class="euiSwitch__body emotion-euiSwitch__body-off"
+    >
+      <span
+        class="euiSwitch__icons emotion-euiSwitch__icons-off-enabled"
+      >
+        <span
+          data-euiicon-type="check"
+        />
+        <span
+          data-euiicon-type="cross"
+        />
+      </span>
+    </span>
+    <span
+      class="euiSwitch__thumb emotion-euiSwitch__thumb-off"
+    />
+  </button>
+  <span
+    class="euiSwitch__label emotion-euiSwitch__label"
+    id="generated-id"
+  >
+    Label
+  </span>
+</div>
+`;
+
+exports[`EuiSwitch labelProps is rendered 1`] = `
+<div
+  class="euiSwitch emotion-euiSwitch"
+>
+  <button
+    aria-checked="false"
+    aria-labelledby="generated-id"
+    class="euiSwitch__button emotion-euiSwitch__button"
+    id="generated-id"
+    role="switch"
+    type="button"
+  >
+    <span
+      class="euiSwitch__body emotion-euiSwitch__body-off"
+    >
+      <span
+        class="euiSwitch__icons emotion-euiSwitch__icons-off-enabled"
+      >
+        <span
+          data-euiicon-type="check"
+        />
+        <span
+          data-euiicon-type="cross"
+        />
+      </span>
+    </span>
+    <span
+      class="euiSwitch__thumb emotion-euiSwitch__thumb-off"
+    />
+  </button>
+  <span
+    aria-label="aria-label"
+    class="euiSwitch__label testClass1 testClass2 emotion-euiSwitch__label-euiTestCss"
+    data-test-subj="test subject string"
+    id="generated-id"
+  >
+    Label
+  </span>
+</div>
+`;

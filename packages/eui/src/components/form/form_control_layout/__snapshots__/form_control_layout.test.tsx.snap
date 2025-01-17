@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiFormControlLayout is rendered 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiFormControlLayout testClass1 testClass2 emotion-euiFormControlLayout-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+  >
+    <input />
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props clear onClick is rendered 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlRightIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+    >
+      <button
+        aria-label="Clear input"
+        class="euiFormControlLayoutClearButton customClass emotion-euiFormControlLayoutClearButton"
+        data-test-subj="clearButton"
+        type="button"
+      >
+        <span
+          class="euiFormControlLayoutClearButton__icon emotion-euiFormControlLayoutClearButton__icon-m"
+          data-euiicon-type="cross"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props compressed renders small-sized icon, clear button, and loading spinner 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout-compressed"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlLeftIconsCount: 1; --euiFormControlRightIconsCount: 2;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-compressed-absolute-left"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="error"
+        />
+      </span>
+    </div>
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-compressed-absolute-right"
+    >
+      <button
+        aria-label="Clear input"
+        class="euiFormControlLayoutClearButton emotion-euiFormControlLayoutClearButton"
+        type="button"
+      >
+        <span
+          class="euiFormControlLayoutClearButton__icon emotion-euiFormControlLayoutClearButton__icon-s"
+          data-euiicon-type="cross"
+        />
+      </button>
+      <span
+        aria-label="Loading"
+        class="euiLoadingSpinner emotion-euiLoadingSpinner-s"
+        role="progressbar"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props fullWidth is rendered 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout-fullWidth"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+  />
+</div>
+`;
+
+exports[`EuiFormControlLayout props icon is rendered as a string 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlLeftIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-left"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="error"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props icon is rendered as an object 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlLeftIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-left"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon customClass emotion-euiFormControlLayoutCustomIcon"
+        data-test-subj="myIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="error"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props icon side left is rendered 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlLeftIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-left"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="error"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props icon side right is rendered 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlRightIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="error"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props iconsPosition 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiFormControlLayout testClass1 testClass2 emotion-euiFormControlLayout-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-static"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="calendar"
+        />
+      </span>
+    </div>
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-static"
+    >
+      <span
+        aria-label="Loading"
+        class="euiLoadingSpinner emotion-euiLoadingSpinner-m"
+        role="progressbar"
+      />
+      <span
+        color="danger"
+        data-euiicon-type="warning"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props isDropdown is rendered 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlRightIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+    >
+      <span
+        class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+      >
+        <span
+          aria-hidden="true"
+          class="euiFormControlLayoutCustomIcon__icon"
+          data-euiicon-type="arrowDown"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props isInvalid is rendered 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlRightIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+    >
+      <span
+        color="danger"
+        data-euiicon-type="warning"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props isLoading is rendered 1`] = `
+<div
+  class="euiFormControlLayout emotion-euiFormControlLayout"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+    style="--euiFormControlRightIconsCount: 1;"
+  >
+    <div
+      class="euiFormControlLayoutIcons emotion-euiFormControlLayoutIcons-absolute-right"
+    >
+      <span
+        aria-label="Loading"
+        class="euiLoadingSpinner emotion-euiLoadingSpinner-m"
+        role="progressbar"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props multiple appends are rendered 1`] = `
+<div
+  class="euiFormControlLayout euiFormControlLayout--group emotion-euiFormControlLayout-group"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper-inGroup-appendOnly"
+  />
+  <div
+    class="euiFormControlLayout__append emotion-euiFormControlLayout__side-append"
+  >
+    <span>
+      1
+    </span>
+    <span>
+      2
+    </span>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props multiple prepends are rendered 1`] = `
+<div
+  class="euiFormControlLayout euiFormControlLayout--group emotion-euiFormControlLayout-group"
+>
+  <div
+    class="euiFormControlLayout__prepend emotion-euiFormControlLayout__side-prepend"
+  >
+    <span>
+      1
+    </span>
+    <span>
+      2
+    </span>
+  </div>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper-inGroup-prependOnly"
+  />
+</div>
+`;
+
+exports[`EuiFormControlLayout props one append node is rendered 1`] = `
+<div
+  class="euiFormControlLayout euiFormControlLayout--group emotion-euiFormControlLayout-group"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper-inGroup-appendOnly"
+  />
+  <div
+    class="euiFormControlLayout__append emotion-euiFormControlLayout__side-append"
+  >
+    <span>
+      1
+    </span>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props one append string is rendered 1`] = `
+<div
+  class="euiFormControlLayout euiFormControlLayout--group emotion-euiFormControlLayout-group"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper-inGroup-appendOnly"
+  />
+  <div
+    class="euiFormControlLayout__append emotion-euiFormControlLayout__side-append"
+  >
+    <label
+      class="euiFormLabel emotion-euiFormLabel"
+    >
+      1
+    </label>
+  </div>
+</div>
+`;
+
+exports[`EuiFormControlLayout props one prepend node is rendered 1`] = `
+<div
+  class="euiFormControlLayout euiFormControlLayout--group emotion-euiFormControlLayout-group"
+>
+  <div
+    class="euiFormControlLayout__prepend emotion-euiFormControlLayout__side-prepend"
+  >
+    <span>
+      1
+    </span>
+  </div>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper-inGroup-prependOnly"
+  />
+</div>
+`;
+
+exports[`EuiFormControlLayout props one prepend node is rendered with className 1`] = `
+<div
+  class="euiFormControlLayout euiFormControlLayout--group emotion-euiFormControlLayout-group"
+>
+  <div
+    class="euiFormControlLayout__prepend emotion-euiFormControlLayout__side-prepend"
+  >
+    <span
+      class="myClass"
+    >
+      1
+    </span>
+  </div>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper-inGroup-prependOnly"
+  />
+</div>
+`;
+
+exports[`EuiFormControlLayout props one prepend string is rendered 1`] = `
+<div
+  class="euiFormControlLayout euiFormControlLayout--group emotion-euiFormControlLayout-group"
+>
+  <div
+    class="euiFormControlLayout__prepend emotion-euiFormControlLayout__side-prepend"
+  >
+    <label
+      class="euiFormLabel emotion-euiFormLabel"
+    >
+      1
+    </label>
+  </div>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper-inGroup-prependOnly"
+  />
+</div>
+`;
+
+exports[`EuiFormControlLayout props readOnly is rendered 1`] = `
+<div
+  class="euiFormControlLayout euiFormControlLayout-readOnly emotion-euiFormControlLayout"
+>
+  <div
+    class="euiFormControlLayout__childrenWrapper emotion-euiFormControlLayout__childrenWrapper"
+  />
+</div>
+`;

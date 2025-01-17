@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiModal renders 1`] = `
+<body>
+  <div />
+  <div
+    class="euiOverlayMask emotion-euiOverlayMask-aboveHeader"
+    data-euiportal="true"
+    data-relative-to-header="above"
+  >
+    <div
+      data-focus-guard="true"
+      style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"
+      tabindex="0"
+    />
+    <div
+      data-focus-lock-disabled="false"
+    >
+      <div
+        aria-label="aria-label"
+        aria-modal="true"
+        class="euiModal testClass1 testClass2 emotion-euiModal-defaultMaxWidth-euiTestCss"
+        data-test-subj="test subject string"
+        role="dialog"
+        tabindex="0"
+      >
+        <button
+          aria-label="Closes this modal window"
+          class="euiButtonIcon euiModal__closeIcon emotion-euiButtonIcon-xs-empty-text-euiModal__closeIcon"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="euiButtonIcon__icon"
+            color="inherit"
+            data-euiicon-type="cross"
+          />
+        </button>
+        children
+      </div>
+    </div>
+    <div
+      data-focus-guard="true"
+      style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"
+      tabindex="0"
+    />
+  </div>
+</body>
+`;

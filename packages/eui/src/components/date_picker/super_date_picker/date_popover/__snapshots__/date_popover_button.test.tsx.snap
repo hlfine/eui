@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiDatePopoverButton renders 1`] = `
+<div>
+  <div
+    class="euiPopover testClass1 testClass2 emotion-euiPopover-block-euiTestCss"
+    data-test-subj="test subject string"
+  >
+    <button
+      class="euiDatePopoverButton euiDatePopoverButton--start emotion-euiDatePopoverButton"
+      data-test-subj="superDatePickerstartDatePopoverButton"
+      title=""
+      type="button"
+    />
+  </div>
+</div>
+`;

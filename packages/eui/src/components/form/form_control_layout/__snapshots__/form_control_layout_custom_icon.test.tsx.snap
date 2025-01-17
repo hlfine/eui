@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiFormControlLayoutCustomIcon is rendered as button 1`] = `
+<button
+  aria-label="aria-label"
+  class="euiFormControlLayoutCustomIcon testClass1 testClass2 emotion-euiFormControlLayoutCustomIcon-clickable-euiTestCss"
+  data-test-subj="test subject string"
+  type="button"
+>
+  <span
+    aria-hidden="true"
+    class="euiFormControlLayoutCustomIcon__icon"
+    color="danger"
+    data-euiicon-type="error"
+  />
+</button>
+`;
+
+exports[`EuiFormControlLayoutCustomIcon is rendered as span 1`] = `
+<span
+  aria-label="aria-label"
+  class="euiFormControlLayoutCustomIcon testClass1 testClass2 emotion-euiFormControlLayoutCustomIcon-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <span
+    aria-hidden="true"
+    class="euiFormControlLayoutCustomIcon__icon"
+    data-euiicon-type="error"
+  />
+</span>
+`;
+
+exports[`EuiFormControlLayoutCustomIcon size is rendered 1`] = `
+<span
+  class="euiFormControlLayoutCustomIcon emotion-euiFormControlLayoutCustomIcon"
+>
+  <span
+    aria-hidden="true"
+    class="euiFormControlLayoutCustomIcon__icon"
+    data-euiicon-type="warning"
+  />
+</span>
+`;

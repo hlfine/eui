@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiGlobalToastList is rendered 1`] = `
+<div
+  aria-label="aria-label"
+  aria-live="polite"
+  class="euiGlobalToastList testClass1 testClass2 emotion-euiGlobalToastList-right-euiTestCss"
+  data-test-subj="test subject string"
+  role="log"
+/>
+`;
+
+exports[`EuiGlobalToastList props side can be changed to left 1`] = `
+<div
+  aria-live="polite"
+  class="euiGlobalToastList emotion-euiGlobalToastList-left"
+  role="log"
+>
+  <div
+    class="euiToast euiGlobalToastListItem emotion-euiToast-success-euiGlobalToastListItem"
+    data-test-subj="a"
+    id="a"
+  >
+    <p
+      class="emotion-euiScreenReaderOnly"
+    >
+      A new notification appears
+    </p>
+    <div
+      aria-label="Notification"
+      class="emotion-euiToastHeader-withBody"
+      data-test-subj="euiToastHeader"
+    >
+      <span
+        aria-hidden="true"
+        class="emotion-euiToastHeader__icon"
+        data-euiicon-type="check"
+      />
+      <span
+        class="emotion-euiToastHeader__title"
+        data-test-subj="euiToastHeader__title"
+      >
+        A
+      </span>
+    </div>
+    <button
+      aria-label="Dismiss toast"
+      class="euiButtonIcon emotion-euiButtonIcon-xs-empty-text-euiToast__closeButton"
+      data-test-subj="toastCloseButton"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="cross"
+      />
+    </button>
+    <div
+      class="euiText emotion-euiText-s"
+      data-test-subj="euiToastBody"
+    >
+      a
+    </div>
+  </div>
+  <div
+    class="euiToast euiGlobalToastListItem emotion-euiToast-danger-euiGlobalToastListItem"
+    data-test-subj="b"
+    id="b"
+  >
+    <p
+      class="emotion-euiScreenReaderOnly"
+    >
+      A new notification appears
+    </p>
+    <div
+      aria-label="Notification"
+      class="emotion-euiToastHeader-withBody"
+      data-test-subj="euiToastHeader"
+    >
+      <span
+        aria-hidden="true"
+        class="emotion-euiToastHeader__icon"
+        data-euiicon-type="warning"
+      />
+      <span
+        class="emotion-euiToastHeader__title"
+        data-test-subj="euiToastHeader__title"
+      >
+        B
+      </span>
+    </div>
+    <button
+      aria-label="Dismiss toast"
+      class="euiButtonIcon emotion-euiButtonIcon-xs-empty-text-euiToast__closeButton"
+      data-test-subj="toastCloseButton"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="cross"
+      />
+    </button>
+    <div
+      class="euiText emotion-euiText-s"
+      data-test-subj="euiToastBody"
+    >
+      b
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiGlobalToastList props toasts is rendered 1`] = `
+<div
+  aria-live="polite"
+  class="euiGlobalToastList emotion-euiGlobalToastList-right"
+  role="log"
+>
+  <div
+    class="euiToast euiGlobalToastListItem emotion-euiToast-success-euiGlobalToastListItem"
+    data-test-subj="a"
+    id="a"
+  >
+    <p
+      class="emotion-euiScreenReaderOnly"
+    >
+      A new notification appears
+    </p>
+    <div
+      aria-label="Notification"
+      class="emotion-euiToastHeader-withBody"
+      data-test-subj="euiToastHeader"
+    >
+      <span
+        aria-hidden="true"
+        class="emotion-euiToastHeader__icon"
+        data-euiicon-type="check"
+      />
+      <span
+        class="emotion-euiToastHeader__title"
+        data-test-subj="euiToastHeader__title"
+      >
+        A
+      </span>
+    </div>
+    <button
+      aria-label="Dismiss toast"
+      class="euiButtonIcon emotion-euiButtonIcon-xs-empty-text-euiToast__closeButton"
+      data-test-subj="toastCloseButton"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="cross"
+      />
+    </button>
+    <div
+      class="euiText emotion-euiText-s"
+      data-test-subj="euiToastBody"
+    >
+      a
+    </div>
+  </div>
+  <div
+    class="euiToast euiGlobalToastListItem emotion-euiToast-danger-euiGlobalToastListItem"
+    data-test-subj="b"
+    id="b"
+  >
+    <p
+      class="emotion-euiScreenReaderOnly"
+    >
+      A new notification appears
+    </p>
+    <div
+      aria-label="Notification"
+      class="emotion-euiToastHeader-withBody"
+      data-test-subj="euiToastHeader"
+    >
+      <span
+        aria-hidden="true"
+        class="emotion-euiToastHeader__icon"
+        data-euiicon-type="warning"
+      />
+      <span
+        class="emotion-euiToastHeader__title"
+        data-test-subj="euiToastHeader__title"
+      >
+        B
+      </span>
+    </div>
+    <button
+      aria-label="Dismiss toast"
+      class="euiButtonIcon emotion-euiButtonIcon-xs-empty-text-euiToast__closeButton"
+      data-test-subj="toastCloseButton"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="cross"
+      />
+    </button>
+    <div
+      class="euiText emotion-euiText-s"
+      data-test-subj="euiToastBody"
+    >
+      b
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiFlexItem renders 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiFlexItem testClass1 testClass2 emotion-euiFlexItem-grow-1-euiTestCss"
+  data-test-subj="test subject string"
+/>
+`;

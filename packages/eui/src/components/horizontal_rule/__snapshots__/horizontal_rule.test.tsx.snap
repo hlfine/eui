@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiHorizontalRule is rendered 1`] = `
+<hr
+  aria-label="aria-label"
+  class="euiHorizontalRule testClass1 testClass2 emotion-euiHorizontalRule-full-l-euiTestCss"
+  data-test-subj="test subject string"
+/>
+`;

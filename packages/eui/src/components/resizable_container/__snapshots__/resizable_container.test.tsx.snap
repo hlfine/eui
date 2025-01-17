@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiResizableContainer can adjust panel props 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiResizableContainer testClass1 testClass2 emotion-euiResizableContainer-horizontal-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 50%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiResizablePanel__content emotion-euiPanel-grow-none-transparent-euiResizablePanel__content-scrollable"
+    >
+      Testing
+    </div>
+  </div>
+  <button
+    aria-label="Press the left or right arrow keys to adjust panels size"
+    class="euiResizableButton emotion-euiResizableButton-handle-horizontal-horizontal-center-none"
+    data-test-subj="euiResizableButton"
+    id="resizable-button_generated-id"
+    type="button"
+  />
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 50%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--plain euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-plain-euiResizablePanel__content-scrollable"
+    >
+      123
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiResizableContainer can be controlled externally 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiResizableContainer testClass1 testClass2 emotion-euiResizableContainer-horizontal-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 50%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      Testing
+    </div>
+  </div>
+  <button
+    aria-label="Press the left or right arrow keys to adjust panels size"
+    class="euiResizableButton emotion-euiResizableButton-handle-horizontal-horizontal-center-none"
+    data-test-subj="euiResizableButton"
+    id="resizable-button_generated-id"
+    type="button"
+  />
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 50%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      123
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiResizableContainer can be vertical 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiResizableContainer testClass1 testClass2 emotion-euiResizableContainer-vertical-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 100%; block-size: 50%;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      Testing
+    </div>
+  </div>
+  <button
+    aria-label="Press the up or down arrow keys to adjust panels size"
+    class="euiResizableButton emotion-euiResizableButton-handle-vertical-vertical-center-none"
+    data-test-subj="euiResizableButton"
+    id="resizable-button_generated-id"
+    type="button"
+  />
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 100%; block-size: 50%;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      123
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiResizableContainer can have more than two panels 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiResizableContainer testClass1 testClass2 emotion-euiResizableContainer-horizontal-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 33%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      Testing
+    </div>
+  </div>
+  <button
+    aria-label="Press the left or right arrow keys to adjust panels size"
+    class="euiResizableButton emotion-euiResizableButton-handle-horizontal-horizontal-center-none"
+    data-test-subj="euiResizableButton"
+    id="resizable-button_generated-id"
+    type="button"
+  />
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 33%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      123
+    </div>
+  </div>
+  <button
+    aria-label="Press the left or right arrow keys to adjust panels size"
+    class="euiResizableButton emotion-euiResizableButton-handle-horizontal-horizontal-center-none"
+    data-test-subj="euiResizableButton"
+    id="resizable-button_generated-id"
+    type="button"
+  />
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 33%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      And again
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiResizableContainer can have scrollable panels 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiResizableContainer testClass1 testClass2 emotion-euiResizableContainer-horizontal-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 50%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      Testing
+    </div>
+  </div>
+  <button
+    aria-label="Press the left or right arrow keys to adjust panels size"
+    class="euiResizableButton emotion-euiResizableButton-handle-horizontal-horizontal-center-none"
+    data-test-subj="euiResizableButton"
+    id="resizable-button_generated-id"
+    type="button"
+  />
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 50%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      123
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiResizableContainer can have toggleable panels 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiResizableContainer testClass1 testClass2 emotion-euiResizableContainer-horizontal-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 80%; block-size: auto;"
+  >
+    <button
+      aria-label="Press to toggle this panel"
+      class="euiButtonIcon euiResizableCollapseButton emotion-euiButtonIcon-xs-base-text-euiResizableCollapseButton-euiScreenReaderOnly-showOnFocus-collapsible-before-middle"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="menuRight"
+      />
+    </button>
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable-hasCollapsibleButton"
+    >
+      Sidebar
+    </div>
+  </div>
+  <button
+    aria-label="Press the left or right arrow keys to adjust panels size"
+    class="euiResizableButton emotion-euiResizableButton-handle-horizontal-horizontal-center-none"
+    data-test-subj="euiResizableButton"
+    id="resizable-button_generated-id"
+    type="button"
+  />
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 80%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      Sidebar content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiResizableContainer is rendered 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiResizableContainer testClass1 testClass2 emotion-euiResizableContainer-horizontal-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 50%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      Testing
+    </div>
+  </div>
+  <button
+    aria-label="Press the left or right arrow keys to adjust panels size"
+    class="euiResizableButton emotion-euiResizableButton-handle-horizontal-horizontal-center-none"
+    data-test-subj="euiResizableButton"
+    id="resizable-button_generated-id"
+    type="button"
+  />
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 50%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      123
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiResizableContainer toggleable panels can be configurable 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiResizableContainer testClass1 testClass2 emotion-euiResizableContainer-horizontal-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 80%; block-size: auto;"
+  >
+    <button
+      aria-label="Press to toggle this panel"
+      class="euiButtonIcon euiResizableCollapseButton emotion-euiButtonIcon-xs-base-text-euiResizableCollapseButton-euiScreenReaderOnly-showOnFocus-collapsible-before-top"
+      data-test-subj="panel-toggle"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="menuRight"
+      />
+    </button>
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable-hasCollapsibleButton"
+    >
+      Sidebar
+    </div>
+  </div>
+  <button
+    aria-label="Press the left or right arrow keys to adjust panels size"
+    class="euiResizableButton emotion-euiResizableButton-handle-horizontal-horizontal-center-none"
+    data-test-subj="euiResizableButton"
+    id="resizable-button_generated-id"
+    type="button"
+  />
+  <div
+    class="euiResizablePanel emotion-euiResizablePanel"
+    data-position="last"
+    id="resizable-panel_generated-id"
+    style="inline-size: 80%; block-size: auto;"
+  >
+    <div
+      class="euiPanel euiPanel--transparent euiPanel--paddingMedium euiResizablePanel__content emotion-euiPanel-grow-none-m-transparent-euiResizablePanel__content-scrollable"
+    >
+      Sidebar content
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiLoadingChart is rendered 1`] = `
+<span
+  aria-label="aria-label"
+  class="euiLoadingChart testClass1 testClass2 emotion-euiLoadingChart-m-euiTestCss"
+  data-test-subj="test subject string"
+  role="progressbar"
+>
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-m"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-m"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-m"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-m"
+  />
+</span>
+`;
+
+exports[`EuiLoadingChart mono is rendered 1`] = `
+<span
+  aria-label="Loading"
+  class="euiLoadingChart emotion-euiLoadingChart-m"
+  role="progressbar"
+>
+  <span
+    class="emotion-euiLoadingChart__bar-mono-m"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-mono-m"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-mono-m"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-mono-m"
+  />
+</span>
+`;
+
+exports[`EuiLoadingChart size l is rendered 1`] = `
+<span
+  aria-label="Loading"
+  class="euiLoadingChart emotion-euiLoadingChart-l"
+  role="progressbar"
+>
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-l"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-l"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-l"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-l"
+  />
+</span>
+`;
+
+exports[`EuiLoadingChart size m is rendered 1`] = `
+<span
+  aria-label="Loading"
+  class="euiLoadingChart emotion-euiLoadingChart-m"
+  role="progressbar"
+>
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-m"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-m"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-m"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-m"
+  />
+</span>
+`;
+
+exports[`EuiLoadingChart size xl is rendered 1`] = `
+<span
+  aria-label="Loading"
+  class="euiLoadingChart emotion-euiLoadingChart-xl"
+  role="progressbar"
+>
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-xl"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-xl"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-xl"
+  />
+  <span
+    class="emotion-euiLoadingChart__bar-nonmono-xl"
+  />
+</span>
+`;

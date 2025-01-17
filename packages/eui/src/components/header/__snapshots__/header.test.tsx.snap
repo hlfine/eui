@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiHeader renders 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiHeader testClass1 testClass2 emotion-euiHeader-static-default-euiTestCss"
+  data-test-subj="test subject string"
+/>
+`;
+
+exports[`EuiHeader renders children 1`] = `
+<div
+  class="euiHeader emotion-euiHeader-static-default"
+>
+  <span>
+    Hello!
+  </span>
+</div>
+`;
+
+exports[`EuiHeader renders dark theme 1`] = `
+<div
+  class="euiHeader emotion-euiHeader-static-dark"
+/>
+`;
+
+exports[`EuiHeader renders in fixed position 1`] = `
+<div
+  class="euiHeader emotion-euiHeader-fixed-default"
+  data-fixed-header="true"
+  style="inset-block-start: 0px;"
+>
+  <span>
+    Hello!
+  </span>
+</div>
+`;
+
+exports[`EuiHeader sections render breadcrumbs and props 1`] = `
+<div
+  class="euiHeader emotion-euiHeader-static-default"
+>
+  <nav
+    aria-label="Breadcrumbs"
+    class="euiBreadcrumbs euiHeaderBreadcrumbs emotion-euiHeaderBreadcrumbs"
+  >
+    <ol
+      class="euiBreadcrumbs__list emotion-euiBreadcrumbs__list-isTruncated"
+    >
+      <li
+        class="euiBreadcrumb emotion-euiBreadcrumb-application-isTruncated"
+        data-test-subj="euiBreadcrumb"
+      >
+        <span
+          aria-current="page"
+          class="euiBreadcrumb__content emotion-euiBreadcrumb__content-application-onlyChild-isTruncatedLast"
+          title="Breadcrumb"
+        >
+          Breadcrumb
+        </span>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;
+
+exports[`EuiHeader sections render simple items 1`] = `
+<div
+  class="euiHeader emotion-euiHeader-static-default"
+>
+  <div
+    class="euiHeaderSection emotion-euiHeaderSection"
+  >
+    <div
+      class="euiHeaderSectionItem emotion-euiHeaderSectionItem"
+    >
+      Item 1
+    </div>
+    <div
+      class="euiHeaderSectionItem emotion-euiHeaderSectionItem"
+    >
+      Item 2
+    </div>
+  </div>
+  <div
+    class="euiHeaderSection emotion-euiHeaderSection"
+  >
+    <div
+      class="euiHeaderSectionItem emotion-euiHeaderSectionItem"
+    >
+      Item A
+    </div>
+    <div
+      class="euiHeaderSectionItem emotion-euiHeaderSectionItem"
+    >
+      Item B
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EuiHeader throws a warning if both children and sections were passed 1`] = `
+<div
+  class="euiHeader emotion-euiHeader-static-default"
+>
+  <div
+    class="euiHeaderSection emotion-euiHeaderSection"
+  >
+    <div
+      class="euiHeaderSectionItem emotion-euiHeaderSectionItem"
+    >
+      Item 1
+    </div>
+    <div
+      class="euiHeaderSectionItem emotion-euiHeaderSectionItem"
+    >
+      Item 2
+    </div>
+  </div>
+</div>
+`;
