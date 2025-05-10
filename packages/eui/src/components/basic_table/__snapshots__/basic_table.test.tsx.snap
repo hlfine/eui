@@ -266,31 +266,35 @@ exports[`EuiBasicTable renders (kitchen sink) with pagination, selection, sortin
           role="columnheader"
           scope="col"
         >
-          <button
-            class="euiTableHeaderButton euiTableHeaderButton-isSorted emotion-euiTableHeaderCell__button"
-            data-test-subj="tableHeaderSortButton"
-            type="button"
+          <span
+            class="euiToolTipAnchor emotion-euiToolTipAnchor-block"
           >
-            <div
-              class="euiTableCellContent emotion-euiTableCellContent-euiTableHeaderCell__content"
+            <button
+              class="euiTableHeaderButton euiTableHeaderButton-isSorted emotion-euiTableHeaderCell__button"
+              data-test-subj="tableHeaderSortButton"
+              type="button"
             >
-              <span
-                class="eui-textTruncate"
-                title="Name; your name"
+              <div
+                class="euiTableCellContent emotion-euiTableCellContent-euiTableHeaderCell__content"
               >
-                Name
-              </span>
-              <span
-                class="emotion-euiScreenReaderOnly"
-              >
-                your name
-              </span>
-              <span
-                class="euiTableSortIcon"
-                data-euiicon-type="sortUp"
-              />
-            </div>
-          </button>
+                <span
+                  class="eui-textTruncate"
+                  title="Name; your name"
+                >
+                  Name
+                </span>
+                <span
+                  class="emotion-euiScreenReaderOnly"
+                >
+                  your name
+                </span>
+                <span
+                  class="euiTableSortIcon"
+                  data-euiicon-type="sortUp"
+                />
+              </div>
+            </button>
+          </span>
           <span
             aria-hidden="true"
             class="euiScreenReaderOnly"
@@ -962,7 +966,6 @@ exports[`EuiBasicTable renders (kitchen sink) with pagination, selection, sortin
             />
           </button>
           <ul
-            aria-label="Pagination for table: "
             class="euiPagination__list emotion-euiPagination__list"
           >
             <li
@@ -970,7 +973,7 @@ exports[`EuiBasicTable renders (kitchen sink) with pagination, selection, sortin
             >
               <button
                 aria-controls="__table_generated-id"
-                aria-current="true"
+                aria-current="page"
                 aria-label="Page 1 of 2"
                 class="euiButtonEmpty euiPaginationButton emotion-euiButtonDisplay-euiButtonEmpty-s-empty-disabled-isDisabled-euiPaginationButton-isActive"
                 data-test-subj="pagination-button-0"

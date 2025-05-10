@@ -9,7 +9,8 @@
 import React, { FunctionComponent } from 'react';
 import classNames from 'classnames';
 
-import { useEuiTheme } from '../../services';
+import { useEuiMemoizedStyles } from '../../services';
+import { _EuiButtonColor } from '../../global_styling';
 import { useEuiI18n } from '../i18n';
 import { useInnerText } from '../inner_text';
 import { DistributiveOmit } from '../common';
@@ -53,7 +54,16 @@ export type EuiFilterButtonProps = {
    * Change color of the counter badge
    */
   badgeColor?: BadgeNotificationColor;
-} & DistributiveOmit<EuiButtonEmptyProps, 'flush' | 'size'>;
+  /**
+   * Any of the named color palette options.
+   *
+   * Do not use the following colors for standalone buttons directly,
+   * they exist to serve other components:
+   *  - accent
+   *  - warning
+   */
+  color?: _EuiButtonColor;
+} & DistributiveOmit<EuiButtonEmptyProps, 'flush' | 'size' | 'color'>;
 
 export const EuiFilterButton: FunctionComponent<EuiFilterButtonProps> = ({
   children,
@@ -78,8 +88,7 @@ export const EuiFilterButton: FunctionComponent<EuiFilterButtonProps> = ({
   const numActiveFiltersDefined =
     numActiveFilters != null && numActiveFilters > 0;
 
-  const euiTheme = useEuiTheme();
-  const styles = euiFilterButtonStyles(euiTheme);
+  const styles = useEuiMemoizedStyles(euiFilterButtonStyles);
   const cssStyles = [
     styles.euiFilterButton,
     withNext && styles.withNext,
@@ -91,7 +100,7 @@ export const EuiFilterButton: FunctionComponent<EuiFilterButtonProps> = ({
     content: contentStyles,
     text: textStyles,
     notification: notificationStyles,
-  } = euiFilterButtonChildStyles(euiTheme);
+  } = useEuiMemoizedStyles(euiFilterButtonChildStyles);
 
   const classes = classNames(
     'euiFilterButton',
@@ -118,21 +127,10 @@ export const EuiFilterButton: FunctionComponent<EuiFilterButtonProps> = ({
     '{count} available filters',
     { count: badgeCount }
   );
-
-  const badgeContent = showBadge && (
-    <EuiNotificationBadge
-      className="euiFilterButton__notification"
-      css={[
-        notificationStyles.euiFilterButton__notification,
-        isDisabled && notificationStyles.disabled,
-      ]}
-      aria-label={hasActiveFilters ? activeBadgeLabel : availableBadgeLabel}
-      color={isDisabled || !hasActiveFilters ? 'subdued' : badgeColor}
-      role="marquee" // https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/marquee_role
-    >
-      {badgeCount}
-    </EuiNotificationBadge>
-  );
+  const badgeStyles = [
+    notificationStyles.euiFilterButton__notification,
+    isDisabled && notificationStyles.disabled,
+  ];
 
   /**
    * Text
@@ -151,19 +149,6 @@ export const EuiFilterButton: FunctionComponent<EuiFilterButtonProps> = ({
   const [ref, innerText] = useInnerText();
   const dataText =
     children && typeof children === 'string' ? children : innerText;
-
-  const textContent = (
-    <span
-      ref={ref}
-      data-text={dataText}
-      title={dataText}
-      {...textProps}
-      className={buttonTextClassNames}
-      css={textCssStyles}
-    >
-      {children}
-    </span>
-  );
 
   return (
     <EuiButtonEmpty
@@ -185,8 +170,28 @@ export const EuiFilterButton: FunctionComponent<EuiFilterButtonProps> = ({
       }}
       {...rest}
     >
-      {textContent}
-      {badgeContent}
+      <span
+        ref={ref}
+        data-text={dataText}
+        title={dataText}
+        {...textProps}
+        className={buttonTextClassNames}
+        css={textCssStyles}
+      >
+        {children}
+      </span>
+
+      {showBadge && (
+        <EuiNotificationBadge
+          className="euiFilterButton__notification"
+          css={badgeStyles}
+          aria-label={hasActiveFilters ? activeBadgeLabel : availableBadgeLabel}
+          color={isDisabled || !hasActiveFilters ? 'subdued' : badgeColor}
+          role="marquee" // https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/marquee_role
+        >
+          {badgeCount}
+        </EuiNotificationBadge>
+      )}
     </EuiButtonEmpty>
   );
 };
