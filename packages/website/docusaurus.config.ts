@@ -77,6 +77,21 @@ const config: Config = {
       'docusaurus-lunr-search',
       {
         disableVersioning: true, // We don't use docusaurus docs versioning
+        fields: {
+          title: {
+            // We need high enough boost to ensure titles are prioritized
+            // even if it's not a 100% match.
+            // lunr scoring logic seems to be very picky about that
+            boost: 200,
+            extractor(doc) {
+              // We need to include keywords in the title field/index
+              // to boost their importance when searching.
+              // They're not rendered in search results
+              return `${doc.title}${doc.keywords ? ` ${doc.keywords}` : ''}`;
+            },
+          },
+          content: { boost: 1 },
+        },
       },
     ],
   ],
@@ -91,7 +106,7 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'gettingstarted',
+          sidebarId: 'getting-started',
           position: 'left',
           label: 'Getting started',
         },
@@ -100,6 +115,12 @@ const config: Config = {
           sidebarId: 'components',
           position: 'left',
           label: 'Components',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'utilities',
+          position: 'left',
+          label: 'Utilities',
         },
         {
           type: 'docSidebar',

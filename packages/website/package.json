@@ -14,7 +14,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "spellcheck": "cspell ./docs"
+    "spellcheck": "cspell ./docs",
+    "postrelease": "node ./scripts/update-versions.js"
   },
   "dependencies": {
     "@docusaurus/core": "^3.7.0",
@@ -35,7 +36,7 @@
     "classnames": "^2.5.1",
     "clsx": "^2.0.0",
     "cross-env": "^7.0.3",
-    "docusaurus-lunr-search": "^3.4.0",
+    "docusaurus-lunr-search": "patch:docusaurus-lunr-search@npm%3A3.6.1#~/.yarn/patches/docusaurus-lunr-search-npm-3.6.1-9688befeb3.patch",
     "hast-util-is-element": "1.1.0",
     "lodash": "^4.17.21",
     "moment": "^2.30.1",

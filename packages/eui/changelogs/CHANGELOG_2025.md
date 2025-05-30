@@ -1,3 +1,112 @@
+## [`v102.2.0`](https://github.com/elastic/eui/releases/v102.2.0)
+
+- Added `useIsDarkMode` utility ([#8701](https://github.com/elastic/eui/pull/8701))
+- Added scroll position data as arguments to `virtualizationOptions.onScroll` for the virtualized `EuiDataGrid` ([#8688](https://github.com/elastic/eui/pull/8688))
+- Updated secondary fill to `primary` on `EuiIcon` ([#8687](https://github.com/elastic/eui/pull/8687))
+- Added white outline on EuiLoadingElastic to make it compliant with the Brand requirements ([#8684](https://github.com/elastic/eui/pull/8684))
+
+**Bug fixes**
+
+- Fixed `EuiGlobalToastList` toasts not being cleaned properly when they are added and removed at the same time ([#8692](https://github.com/elastic/eui/pull/8692))
+- Resolved an issue where the `EuiDataGrid` cell actions menu was hidden by the header when a cell was clicked to scroll into view ([#8640](https://github.com/elastic/eui/pull/8640))
+
+**Accessibility**
+
+- Improved accessibility of `EuiSelect` by removing the empty `<option>` added when `hasNoInitialSelection` is `true` from the DOM, once a user makes a selection. ([#8706](https://github.com/elastic/eui/pull/8706))
+- Improved the accessibility of `EuiSuperDatePicker`'s quick select buttons by preventing duplicate screen reader output ([#8686](https://github.com/elastic/eui/pull/8686))
+
+**Dependency updates**
+
+- Updated `typescript` to v5.8.3 ([#8626](https://github.com/elastic/eui/pull/8626))
+
+## [`v102.1.0`](https://github.com/elastic/eui/releases/v102.1.0)
+
+- Update `EuiDataGrid` to use `expand` glyph ([#8646](https://github.com/elastic/eui/pull/8646))
+
+**Accessibility**
+
+- Updated `EuiTableHeaderCell` to output `nameTooltip` directly on sortable cell elements, ensuring tooltips appear on focus ([#8644](https://github.com/elastic/eui/pull/8644))
+- Improved the accessibility of `EuiColorPicker` by: ([#8639](https://github.com/elastic/eui/pull/8639))
+  - preventing duplicate color output for screen readers
+  - adding tooltips with visual color labels for the selected colors on the saturation and hue sliders
+  - updated accessible labels and announcements to be more descriptive
+
+**Dependency updates**
+
+- Updated `typescript` to v5.8.3 ([#8626](https://github.com/elastic/eui/pull/8626))
+
+## [`v102.0.0`](https://github.com/elastic/eui/releases/v102.0.0)
+
+- Added semantic severity color tokens: ([#8601](https://github.com/elastic/eui/pull/8601))
+    - `colors.severity.unknown`
+    - `colors.severity.neutral`
+    - `colors.severity.success`
+    - `colors.severity.warning`
+    - `colors.severity.risk` 
+    - `colors.severity.danger` 
+- Added semantic color tokens for variants `neutral` and `risk`: ([#8601](https://github.com/elastic/eui/pull/8601))
+    - `colors.textNeutral`
+    - `colors.textRisk`
+    - `colors.backgroundBaseNeutral`
+    - `colors.backgroundBaseRisk`
+    - `colors.backgroundLightNeutral`
+    - `colors.backgroundLightRisk`
+    - `colors.backgroundFilledNeutral`
+    - `colors.backgroundFilledRisk`
+    - `colors.borderBaseNeutral`
+    - `colors.borderBaseRisk`
+    - `colors.borderStrongNeutral`
+    - `colors.borderStrongRisk`
+- Added semantic color variants `neutral` and `risk` for the following components: ([#8601](https://github.com/elastic/eui/pull/8601))
+    - `EuiButton`
+    - `EuiButtonEmpty`
+    - `EuiButtonIcon`
+    - `EuiBadge`
+    - `EuiIcon`
+    - `EuiPanel`
+- Aligned `EuiFormControlLayoutIcons` to the top (instead of center) to improve usability in multi-line form controls like `EuiComboBox` with many selected options ([#8610](https://github.com/elastic/eui/pull/8610))
+
+**Breaking changes**
+
+- Removed numbered severity color tokens: ([#8601](https://github.com/elastic/eui/pull/8601))
+    - `colors.vis.euiColorSeverity0`
+    - `colors.vis.euiColorSeverity1`
+    - `colors.vis.euiColorSeverity2`
+    - `colors.vis.euiColorSeverity3`
+    - `colors.vis.euiColorSeverity4`
+    - `colors.vis.euiColorSeverity5`
+    - `colors.vis.euiColorSeverity6`
+    - `colors.vis.euiColorSeverity7`
+    - `colors.vis.euiColorSeverity8`
+    - `colors.vis.euiColorSeverity9`
+    - `colors.vis.euiColorSeverity10`
+    - `colors.vis.euiColorSeverity11`
+    - `colors.vis.euiColorSeverity12`
+    - `colors.vis.euiColorSeverity13`
+    - `colors.vis.euiColorSeverity14`
+
+**Accessibility**
+
+- Fixed duplicate screen reader output on `EuiDataGrid` for single sorted header cells with actions ([#8598](https://github.com/elastic/eui/pull/8598))
+
+## [`v101.4.0`](https://github.com/elastic/eui/releases/v101.4.0)
+
+- Spread `labelProps` to the `label` element in `EuiCheckableCard` ([#8586](https://github.com/elastic/eui/pull/8586))
+- Add `controls`, `flask`, `comment`, and `readOnly` glyphs to `EuiIcon` ([#8580](https://github.com/elastic/eui/pull/8580))
+- Refactored `EuiExpression`, `EuiFacetGroup`, `EuiFacetButton`, `EuiFilterGroup`, `EuiHeader`, `EuiImage` and `EuiListGroup` to memoize their internal Emotion styles ([#8565](https://github.com/elastic/eui/pull/8565))
+- Updated global `border.radius.medium` token value for default `Borealis` theme to `4px` ([#8563](https://github.com/elastic/eui/pull/8563))
+- Updated `EuiProvider` to build themes including `highContrastMode` ([#8558](https://github.com/elastic/eui/pull/8558))
+
+**Accessibility**
+
+- Removed the `aria-label` attribute from the `ul` element in `EuiPagination` to avoid duplicate screen reader output ([#8597](https://github.com/elastic/eui/pull/8597))
+- Set a more specific `aria-current="page"` on list items in `EuiPagination` ([#8597](https://github.com/elastic/eui/pull/8597))
+- Added `aria-modal` to `EuiFlyout` with `type="overlay"` ([#8591](https://github.com/elastic/eui/pull/8591))
+
+**Dependency updates**
+
+- Updated `@elastic/prismjs-esql` to v1.1.0 ([#8587](https://github.com/elastic/eui/pull/8587))
+
 ## [`v101.3.0`](https://github.com/elastic/eui/releases/v101.3.0)
 
 - Updated 78 existing and added two new glyphs (`code` and `checkCircle`) for `EuiIcon` ([#8530](https://github.com/elastic/eui/pull/8530))

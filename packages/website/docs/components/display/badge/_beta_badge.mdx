@@ -2,7 +2,7 @@ The **EuiBetaBadge** was created specifically to call out modules that are not i
 
 If you pass in an `iconType`, only the icon will be used in the badge itself and the label will be applied as the title. Only use an icon when attaching the beta badge to small components. Beta badges can also be made clickable by passing `href` or `onClick` as needed.
 
-They can also be used in conjunction with [EuiCards](../../containers/card.mdx) and [EuiKeyPadMenuItems](../../navigation/key_pad_menu.mdx).
+They can also be used in conjunction with [EuiCards](../../containers/card.mdx) and [EuiKeyPadMenuItems](../../navigation/key-pad-menu.mdx).
 
 ```tsx interactive
 import React from 'react';
@@ -48,13 +48,13 @@ export default () => (
               tooltipContent="This module is not GA. Please help us by reporting any bugs."
             />
             <EuiBetaBadge label={label} color={item} iconType="beta" />
-            <EuiBetaBadge label="Tech preview" color={item} iconType="beaker" />
+            <EuiBetaBadge label="Tech preview" color={item} iconType="flask" />
             <EuiBetaBadge size="s" label={label} color={item} iconType="beta" />
             <EuiBetaBadge
               size="s"
               label="Tech preview"
               color={item}
-              iconType="beaker"
+              iconType="flask"
             />
           </>
         );

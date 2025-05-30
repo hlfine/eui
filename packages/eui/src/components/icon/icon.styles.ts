@@ -40,14 +40,14 @@ export const euiIconStyles = ({ euiTheme }: UseEuiTheme) => ({
     }
   `,
   // Colors
+  primary: css`
+    color: ${euiTheme.colors.textPrimary};
+  `,
   accent: css`
     color: ${euiTheme.colors.textAccent};
   `,
   accentSecondary: css`
     color: ${euiTheme.colors.textAccentSecondary};
-  `,
-  danger: css`
-    color: ${euiTheme.colors.textDanger};
   `,
   ghost: css`
     color: ${euiTheme.colors.ghost};
@@ -57,12 +57,6 @@ export const euiIconStyles = ({ euiTheme }: UseEuiTheme) => ({
     .euiIcon__fillNegative {
       fill: currentColor !important; /* stylelint-disable-line declaration-no-important */
     }
-  `,
-  primary: css`
-    color: ${euiTheme.colors.textPrimary};
-  `,
-  success: css`
-    color: ${euiTheme.colors.textSuccess};
   `,
   subdued: css`
     color: ${euiTheme.colors.textSubdued};
@@ -76,8 +70,20 @@ export const euiIconStyles = ({ euiTheme }: UseEuiTheme) => ({
       fill: currentColor !important; /* stylelint-disable-line declaration-no-important */
     }
   `,
+  neutral: css`
+    color: ${euiTheme.colors.textNeutral};
+  `,
+  success: css`
+    color: ${euiTheme.colors.textSuccess};
+  `,
   warning: css`
     color: ${euiTheme.colors.textWarning};
+  `,
+  risk: css`
+    color: ${euiTheme.colors.textRisk};
+  `,
+  danger: css`
+    color: ${euiTheme.colors.textDanger};
   `,
   inherit: css`
     color: inherit;
@@ -109,7 +115,7 @@ export const euiIconStyles = ({ euiTheme }: UseEuiTheme) => ({
     /* Note: This className is hard-coded into our SVGs and cannot be converted to Emotion */
     .euiIcon__fillSecondary {
       /* This provides the default secondary color */
-      fill: ${euiTheme.colors.textSuccess};
+      fill: ${euiTheme.colors.primary};
     }
   `,
   logo: css``,
